@@ -41,6 +41,9 @@ trait-description-FrenchAccent = You seem to come from space France.
 trait-name-DrunkardAccent = Drunkard accent
 trait-description-DrunkardAccent = You always sound like you're drunk.
 
+trait-name-DogAccent = Dog accent
+trait-description-DogAccent = Bork.
+
 trait-name-AudioPlayer = Audio Player
 trait-description-AudioPlayer = You have an audio player installed, which allows you to play music.
 
@@ -154,3 +157,18 @@ trait-description-Tiny =
     Note: [color=red]this will not display in the character creation menu, and will only apply the effects in-game.[/color]
 
 examine-tiny-trait-message = {CAPITALIZE(SUBJECT($entity))} is tiny. Handle with care!
+
+trait-name-FastBatteryDrain = Fast Battery Drain
+trait-description-FastBatteryDrain = Due to poor maintenance, fault battery or other hardware error your battery drains 33% faster then standard.
+
+trait-name-SlowBatteryDrain = Slow Battery Drain
+trait-description-SlowBatteryDrain = A hardware or software modification causes your battery drains 33% slower then standard.
+
+# Target Consent Traits: Start
+trait-name-TraitorKillTarget = Marked for Removal
+trait-description-TraitorKillTarget = Someone or something wants you REMOVED. Traitors can recieve orders to kill you and keep you dead.
+
+trait-name-TraitorTeachTarget = Marked for Death
+trait-description-TraitorTeachTarget = Someone or something wants you taught a lesson. Traitors can recieve orders to kill you.
+# Target Consent Traits: End
+

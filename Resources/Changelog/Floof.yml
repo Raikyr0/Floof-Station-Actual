@@ -6583,3 +6583,310 @@ Entries:
   id: 692
   time: '2025-06-29T19:57:58.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1149
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Voting for random map will no longer result in the last map being chosen
+        for the second time (unless the vote was called manually, or the current
+        map got changed)
+  id: 693
+  time: '2025-07-02T01:24:07.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1166
+- author: EinsteinEngines
+  changes:
+    - type: Add
+      message: Added Holopads (unmapped)
+    - type: Add
+      message: Intellicards are now useful for removing/adding a Station AI's brain.
+    - type: Add
+      message: Added the Communications Console to Station AI actions.
+    - type: Add
+      message: AI now has a warp point.
+    - type: Add
+      message: Added more things for the AI to press.
+    - type: Add
+      message: More AI laws have been added.
+    - type: Fix
+      message: Fixed the mail system
+    - type: Fix
+      message: Fixed AI actions
+    - type: Fix
+      message: >-
+        Fixed invalid spawns for station AI breaking and ruining your ability to
+        play it.
+    - type: Fix
+      message: >-
+        The Station AI's name will now properly send in "arrived to the station"
+        announcements.
+    - type: Fix
+      message: Changed the CPR sound to simply not loop until fixed.
+    - type: Fix
+      message: Fixed unlocalized messages being sent for the random sentience event.
+  id: 694
+  time: '2025-07-02T01:25:19.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1005
+- author: Sprkl
+  changes:
+    - type: Add
+      message: Crew can opt in to being the Kill or Teach target of Traitors.
+  id: 695
+  time: '2025-07-03T17:37:37.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1165
+- author: Fansana
+  changes:
+    - type: Tweak
+      message: Adjusted the rules stating that suicide RP is forbidden.
+    - type: Fix
+      message: reformatted the Rules a little.
+  id: 696
+  time: '2025-07-04T14:19:52.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1172
+- author: VividPups
+  changes:
+    - type: Tweak
+      message: >-
+        Arachne has an ass of an spider might as well make web like an arachnid
+        naturally 
+  id: 697
+  time: '2025-07-04T14:20:25.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1170
+- author: AlexisMoonlight
+  changes:
+    - type: Add
+      message: Added public nudity permit recipe to HoP's uniform printer.
+  id: 698
+  time: '2025-07-04T15:00:47.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1171
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Tweaked Fish Labeler to Label Dragons
+  id: 699
+  time: '2025-07-04T15:01:46.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1141
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Tweaked Mantis to being Security again
+  id: 700
+  time: '2025-07-04T15:05:22.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1110
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        The speed at which your characters body regulates its heat now depends
+        on its mass. This means that 4 kg rodentia will no longer regulate its
+        temperature 17 times faster than a 70 kg human.
+  id: 701
+  time: '2025-07-04T15:13:31.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1107
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        You can now add visual descriptions to your character in-game by
+        clicking on your character or by using the right click menu and
+        selecting "custom examine". This works on all entities that can
+        consciously perform actions.
+  id: 702
+  time: '2025-07-04T15:01:29.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1168
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Surgery Speed to Roboticist, Senior Researcher
+  id: 703
+  time: '2025-07-04T15:28:20.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1094
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Train based on community feedback and requests. This includes
+        adding the full Justice department.
+  id: 704
+  time: '2025-07-04T15:17:51.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1074
+- author: ashkitten
+  changes: []
+  id: 705
+  time: '2025-07-04T15:02:32.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1135
+- author: ItsDzordz
+  changes:
+    - type: Add
+      message: Added Mimeguin
+    - type: Tweak
+      message: Balanced Crazed Clown Rat
+  id: 706
+  time: '2025-07-04T15:03:09.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1128
+- author: Fansana
+  changes:
+    - type: Fix
+      message: Fixed all the benches on the maps.
+  id: 707
+  time: '2025-07-05T14:05:11.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1178
+- author: TheDen
+  changes:
+    - type: Fix
+      message: The research console now handles tier 3 multiplier as expected.
+    - type: Fix
+      message: Fixed a critical bug involving the research console.
+  id: 708
+  time: '2025-07-07T05:32:28.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1183
+- author: WhiteLightningTwister
+  changes:
+    - type: Add
+      message: Syndicate Station
+    - type: Add
+      message: Gorlex Station
+    - type: Add
+      message: Syndicate shuttles
+    - type: Add
+      message: Gorlex Raider shuttle
+  id: 709
+  time: '2025-07-08T03:00:48.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1138
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed another round-crashing bug related to loadouts.
+  id: 710
+  time: '2025-07-08T03:01:15.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1193
+- author: VividPups
+  changes:
+    - type: Tweak
+      message: all hats can be Heirlooms now
+  id: 711
+  time: '2025-07-08T03:02:05.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1192
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Repeated mood effects (such as that from hunger or nicotine addiction)
+        should no longer cause your mood to flicker.
+  id: 712
+  time: '2025-07-08T17:39:05.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1181
+- author: M3739
+  changes:
+    - type: Fix
+      message: >-
+        Mindshield implants no longer state that they "ensure loyalty" in it's
+        description.
+  id: 713
+  time: '2025-07-08T17:39:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1180
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Custom examine texts should now correctly be removed when they expire.
+  id: 714
+  time: '2025-07-09T01:15:39.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1176
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: Hiding under tables now obscures you from HUD overlays
+  id: 715
+  time: '2025-07-11T14:09:32.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1198
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: Thieving trait now only shows the silhouette of pocketed items
+  id: 716
+  time: '2025-07-11T14:22:42.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1197
+- author: ashkitten
+  changes:
+    - type: Fix
+      message: Fixed basic examine health info using the wrong entity
+  id: 717
+  time: '2025-07-11T14:23:19.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1196
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: Roboticist is back.
+  id: 718
+  time: '2025-07-11T14:34:05.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1200
+- author: M3739
+  changes:
+    - type: Fix
+      message: >-
+        The speed snail, and vulpkanin atmos suits should now display the proper
+        sprites.
+    - type: Tweak
+      message: The investigation cyborg module now has it's own unique PDA.
+    - type: Tweak
+      message: >-
+        Felinids no longer have innate Trap Avoider, and Thieving traits as part
+        of their base kit.
+    - type: Fix
+      message: Slime people can now have their core reattached into their chest.
+  id: 719
+  time: '2025-07-11T15:08:09.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1194
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Increased the amount of cadet slots on Tortuga from one to four.
+  id: 720
+  time: '2025-07-11T15:44:56.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1190
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Dog Accent
+  id: 721
+  time: '2025-07-11T16:02:38.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1205
+- author: Raikyr0
+  changes:
+    - type: Fix
+      message: Fixed BORK!
+  id: 722
+  time: '2025-07-13T18:23:57.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1210
+- author: archangelmarcy
+  changes:
+    - type: Tweak
+      message: >-
+        Characters using the 'Vampirism' trait can now eat blood tomatoes in
+        order to satiate their bloodthirst.
+  id: 723
+  time: '2025-07-13T18:26:50.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1202
+- author: ashkitten
+  changes:
+    - type: Add
+      message: >-
+        Added favorite drink preference to character profile, which improves
+        mood when consumed.
+  id: 724
+  time: '2025-07-13T18:32:41.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1195
+- author: ashkitten
+  changes:
+    - type: Tweak
+      message: >-
+        Typing indicator no longer shows up when typing in channels whose
+        participation is meant to be secret (Admin, Console, OOC, Telepathic)
+    - type: Tweak
+      message: Allow using sign language while speech-blocked
+    - type: Fix
+      message: >-
+        Whispering in sign language now properly checks that your hands are
+        available
+  id: 725
+  time: '2025-07-14T22:21:30.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1184
