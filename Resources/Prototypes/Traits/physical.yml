@@ -746,7 +746,7 @@
 - type: trait
   id: Redshirt
   category: Physical
-  points: 10
+  points: 8
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
