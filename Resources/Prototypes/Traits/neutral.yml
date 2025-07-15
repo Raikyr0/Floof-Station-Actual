@@ -121,6 +121,7 @@
   id: Liar
   category: Mental
   points: 1
+  slots: 0
   functions:
     - !type:TraitAddComponent
       components:
