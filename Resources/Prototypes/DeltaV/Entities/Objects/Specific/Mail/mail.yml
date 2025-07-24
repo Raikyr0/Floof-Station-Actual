@@ -228,7 +228,7 @@
       prob: 0.25
     - id: ClothingNeckScarfStripedCentcom
       orGroup: Scarf
-      prob: 0.001
+      prob: 0.1
 
 - type: entity
   parent: BaseMailLarge
@@ -408,7 +408,7 @@
       prob: 0.05
     - id: KnifePlastic
     - id: ForkPlastic
-      amount: 2
+      amount: 1
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -423,10 +423,20 @@
     - id: ClothingShoesWizard
     - id: PonderingOrb
       orGroup: Staff
-      prob: 0.3
+      prob: 0.5
     - id: RGBStaff
       orGroup: Staff
-      prob: 0.1
+      prob: 0.3
+    - id: WeaponStaffHealing # Raikyr - Added to make rounds more interesting
+      orGroup: Staff
+      prob: 0.05
+    - id: ForceWallSpellbook
+      orGroup: Staff
+      prob: 0.01
+    - id: BlinkBook
+      orGroup: Staff
+      prob: 0.01
+
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -618,13 +628,13 @@
     contents:
     - id: KatanaDulled
       orGroup: Sword
-      prob: 0.95
+      prob: 0.5
     - id: ClaymoreDulled
       orGroup: Sword
-      prob: 0.95
+      prob: 0.5
     - id: FoamCutlass
       orGroup: Sword
-      prob: 0.95
+      prob: 0.5
     - id: Katana
       orGroup: Sword
       prob: 0.5
@@ -636,13 +646,13 @@
 #      prob: 0.3
     - id: Cutlass
       orGroup: Sword
-      prob: 0.1
+      prob: 0.2
     - id: Kanabou # ah yes, swords
       orGroup: Sword
-      prob: 0.1
+      prob: 0.2
     - id: ClothingBeltSheathFilled # Little dangerous between the reflect and the damage
-      orGroup: Sword
-      prob: 0.001
+      orGroup: Sword # Raikyr - Increased spawn rate to keep rounds interesting
+      prob: 0.05
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -712,11 +722,11 @@
     contents:
     - id: PersonalAI
       orGroup: PAI
-      prob: 0.99
+      prob: 0.6
       # Ultra rare
-    - id: SyndicatePersonalAI
+    - id: SyndicatePersonalAI # Raikyr - Increased to keep rounds interesting
       orGroup: PAI
-      prob: 0.01
+      prob: 0.4
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -902,6 +912,7 @@
   suffix: vague-threat
   components:
   - type: Mail
+    isPriority: true
     contents:
     - id: PaperMailNFVagueThreat1
       orGroup: Paper
@@ -940,6 +951,12 @@
     - id: FoodMeat
       orGroup: ThreateningObject
     - id: OrganHumanHeart
+      orGroup: ThreateningObject
+    - id: PipeBomb # Raikyr - Teehee
+      orGroup: ThreateningObject
+    - id: PipeBombGunpowder
+      orGroup: ThreateningObject
+    - id: PipeBombCable
       orGroup: ThreateningObject
 
 - type: entity
@@ -1333,16 +1350,15 @@
     - id: FoodKoibean
       orGroup: Produce
       amount: 5
-#     EE does not have those yet. Uncomment if any of those get ported.
-#    - id: FoodGhostPepper #DeltaV
-#      orGroup: Produce
-#      amount: 5
-#    - id: FoodCosmicRevenant #DeltaV
-#      orGroup: Produce
-#      amount: 5
-#    - id: FoodCrystalThistle #DeltaV
-#      orGroup: Produce
-#      amount: 5
+    - id: FoodGhostPepper #DeltaV
+      orGroup: Produce
+      amount: 5
+    - id: FoodCosmicRevenant #DeltaV
+      orGroup: Produce
+      amount: 5
+    - id: FoodCrystalThistle #DeltaV
+      orGroup: Produce
+      amount: 5
     - id: FoodLily
       orGroup: Produce
       amount: 5
@@ -1354,7 +1370,7 @@
     - id: FoodSpacemansTrumpet
       orGroup: Produce
       amount: 5
-      prob: 0.25
+      prob: 0.5
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -1408,21 +1424,19 @@
     - id: LuxuryPen
       orGroup: Pen
       prob: 0.50
-    # DeltaV: Commenting these two out because I dunno if crew should have nice things
-    # - id: PenHop
-    #   orGroup: Pen
-    #   prob: 0.25
-    # - id: PenCap
-    #   orGroup: Pen
-    #   prob: 0.25
-    # TODO: come up with a slightly less powerful version of these
+    - id: PenHop
+      orGroup: Pen
+      prob: 0.25
+    - id: PenCap
+      orGroup: Pen
+      prob: 0.25
     # Ultra-rare
-    # - id: CyberPen
-    #   orGroup: Pen
-    #   prob: 0.005
-    # - id: PenCentcom
-    #   orGroup: Pen
-    #   prob: 0.005
+    - id: CyberPen # Raikyr - Increased rates to keep rounds interesting
+      orGroup: Pen
+      prob: 0.1
+    - id: PenCentcom
+      orGroup: Pen
+      prob: 0.1
     - id: PaperMailNFPaperPusherAd
 
 - type: entity
@@ -1584,6 +1598,9 @@
       - id: MobMouse2
         orGroup: Critter
         prob: 0.33
+      - id: MobERTMothroach # Raikyr - Teehee
+        orGroup: Critter
+        prob: 0.1
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -1607,13 +1624,13 @@
   - type: Mail
     contents: # A lot of stuff here, seems spammy.
     - id: ClothingUniformKendoHakama
-      amount: 2
+      amount: 1
     - id: ClothingOuterArmorKendoBogu
-      amount: 2
+      amount: 1
     - id: ClothingHeadHelmetKendoMen
-      amount: 2
+      amount: 1
     - id: Shinai
-      amount: 2
+      amount: 1
 
 # Base Nyano Mail
 - type: entity
@@ -1777,7 +1794,12 @@
   components:
   - type: Mail
     contents:
-    - id: FlashlightLantern
+    - id: Lantern
+      orGroup: Lamp
+      prob: 0.50
+    - id: LanternFlash
+      orGroup: Lamp
+      prob: 0.50
 
 - type: entity
   categories: [ HideSpawnMenu ]
