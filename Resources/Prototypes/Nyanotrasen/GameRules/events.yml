@@ -39,7 +39,7 @@
   components:
   - type: StationEvent
     weight: 15
-    reoccurrenceDelay: 15
+    reoccurrenceDelay: 25
     minimumPlayers: 5
     earliestStart: 5
   - type: MidRoundAntagRule
