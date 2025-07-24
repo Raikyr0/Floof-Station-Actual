@@ -20,7 +20,7 @@
     MailNFJoints: 0.2
     MailNFGoldCigars: 0.1
     #Cosplay - Adds up to 3.4 in weight
-    MailCosplayArc: 0.5
+    MailCosplayArc: 0.6
     MailDVCosplayFakeWizard: 0.5
     MailNFCosplayWizard: 0.5
     MailNFCosplayMaid: 0.5
@@ -28,7 +28,7 @@
     MailCosplaySchoolgirl: 0.5
     MailNFCosplayNurse: 0.4
     MailNFDonkPockets: 0.5
-    MailNFEMP: 0.3
+    MailNFEMP: 0.5
     MailNFFigurineBulk: 1
     MailFishingCap: 0.5
     MailFlashlight: 1
@@ -66,7 +66,7 @@
     MailNFUnusualProduce: 1
     MailNFVagueThreat: 0.5
     # Mainly for Glacier
-    MailWinterCoat: 1.5
+    MailWinterCoat: 1
 
   # Department and job-specific mail can have slightly higher weights,
   # since they'll be merged with the everyone pool.
