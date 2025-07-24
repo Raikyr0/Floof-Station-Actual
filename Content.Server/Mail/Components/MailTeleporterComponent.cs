@@ -71,13 +71,13 @@ public sealed partial class MailTeleporterComponent : Component
     ///     What's the bonus for delivering a fragile package intact?
     /// </summary>
     [DataField]
-    public int FragileBonus = 100;
+    public int FragileBonus = 1000;
 
     /// <summary>
     ///     What's the malus for failing to deliver a fragile package?
     /// </summary>
     [DataField]
-    public int FragileMalus = -100;
+    public int FragileMalus = -500;
 
     /// <summary>
     ///     What's the chance for any one delivery to be marked as priority mail?
@@ -96,19 +96,19 @@ public sealed partial class MailTeleporterComponent : Component
     ///     What's the bonus for delivering a priority package on time?
     /// </summary>
     [DataField]
-    public int PriorityBonus = 250;
+    public int PriorityBonus = 1000;
 
     /// <summary>
     ///    What's the malus for failing to deliver a priority package?
     /// </summary>
     [DataField]
-    public int PriorityMalus = -250;
+    public int PriorityMalus = -500;
 
     /// <summary>
     ///     What's the bonus for delivering a large package intact?
     /// </summary>
     [DataField]
-    public int LargeBonus = 1500;
+    public int LargeBonus = 2000;
 
     /// <summary>
     ///     What's the malus for failing to deliver a large package?
