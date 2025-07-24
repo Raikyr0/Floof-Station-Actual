@@ -75,13 +75,13 @@ public sealed partial class MailComponent : SharedMailComponent
     ///     The amount that cargo will be awarded for delivering this mail.
     /// </summary>
     [DataField]
-    public int Bounty = 750;
+    public int Bounty = 1500;
 
     /// <summary>
     ///     Penalty if the mail is destroyed.
     /// </summary>
     [DataField]
-    public int Penalty = -250;
+    public int Penalty = -500;
 
     /// <summary>
     ///     The sound that's played when the mail's lock is broken.
