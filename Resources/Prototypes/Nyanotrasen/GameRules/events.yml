@@ -37,9 +37,9 @@
   parent: BaseMidRoundAntag
   id: ParadoxAnomalySpawn
   components:
-  - type: StationEvent
+  - type: StationEvent # Floofstation - Non-Antag
     weight: 15
-    reoccurrenceDelay: 25
+    reoccurrenceDelay: 30
     minimumPlayers: 5
     earliestStart: 5
   - type: MidRoundAntagRule
