@@ -432,10 +432,10 @@
       prob: 0.05
     - id: ForceWallSpellbook
       orGroup: Staff
-      prob: 0.01
+      prob: 0.001
     - id: BlinkBook
       orGroup: Staff
-      prob: 0.01
+      prob: 0.001
 
 
 - type: entity
