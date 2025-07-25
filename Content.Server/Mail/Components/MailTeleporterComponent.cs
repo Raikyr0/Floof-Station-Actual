@@ -108,11 +108,11 @@ public sealed partial class MailTeleporterComponent : Component
     ///     What's the bonus for delivering a large package intact?
     /// </summary>
     [DataField]
-    public int LargeBonus = 2000;
+    public int LargeBonus = 1500;
 
     /// <summary>
     ///     What's the malus for failing to deliver a large package?
     /// </summary>
     [DataField]
-    public int LargeMalus = -500;
+    public int LargeMalus = -750;
 }
