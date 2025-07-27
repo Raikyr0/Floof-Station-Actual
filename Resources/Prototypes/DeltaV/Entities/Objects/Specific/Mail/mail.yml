@@ -1433,10 +1433,10 @@
     # Ultra-rare
     - id: CyberPen # Raikyr - Increased rates to keep rounds interesting
       orGroup: Pen
-      prob: 0.1
+      prob: 0.01
     - id: PenCentcom
       orGroup: Pen
-      prob: 0.1
+      prob: 0.01
     - id: PaperMailNFPaperPusherAd
 
 - type: entity
