@@ -456,14 +456,6 @@
     state: pink
   - type: Item
     heldPrefix: pink
-  - type: MeleeWeapon
-    wideAnimationRotation: -135
-    soundHit:
-      collection: ToySqueak
-    attackRate: 1.25 # Floofstation - this is hertz, not seconds
-    damage:
-      types:
-        Blunt: 0
   - type: Tag
     tags:
       - PlushieSharkPink
@@ -480,14 +472,6 @@
     state: grey
   - type: Item
     heldPrefix: grey
-  - type: MeleeWeapon
-    wideAnimationRotation: -135
-    soundHit:
-      collection: ToySqueak
-    attackRate: 1.25 # Floofstation - this is hertz, not seconds
-    damage:
-      types:
-        Blunt: 0
   - type: Tag
     tags:
       - PlushieSharkGrey
