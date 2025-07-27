@@ -532,3 +532,18 @@
           reagents:
             - ReagentId: Stelloxadone
               Quantity: 200
+
+- type: entity # Floofstation
+  parent: Jug
+  suffix: opporozidone
+  id: JugOpporozidone
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Label
+      currentLabel: reagent-name-opporozidone
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Opporozidone
+              Quantity: 200
