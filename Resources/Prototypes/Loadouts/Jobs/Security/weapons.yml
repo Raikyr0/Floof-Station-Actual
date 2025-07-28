@@ -601,47 +601,47 @@
   items:
   - WeaponRevolverDeckardNonLethalSecurity
 
-- type: loadout # Re-enabled with an cost increase and a very large minimum playtime required, a reward for dedicated security players if you would
-  id: LoadoutSecurityPistolN1984
-  category: JobsSecurityWeapons
-  cost: 10
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 604800 # 1 Week
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterJobRequirement
-    jobs:
-    - BlueshieldOfficer
-    - SeniorOfficer
-    - HeadOfSecurity
-    - Warden
-  items:
-  - WeaponPistolN1984Security
+#- type: loadout # Re-enabled with an cost increase and a very large minimum playtime required, a reward for dedicated security players if you would
+#  id: LoadoutSecurityPistolN1984
+#  category: JobsSecurityWeapons
+#  cost: 10
+#  canBeHeirloom: true
+#  guideEntry: SecurityWeapons
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 604800 # 1 Week
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityWeapons
+#  - !type:CharacterJobRequirement
+#    jobs:
+#    - BlueshieldOfficer
+#    - SeniorOfficer
+#    - HeadOfSecurity
+#    - Warden
+#  items:
+#  - WeaponPistolN1984Security
 
-- type: loadout
-  id: LoadoutSecurityPistolN1984NonLethal
-  category: JobsSecurityWeapons
-  cost: 10
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 604800 # 1 Week
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterJobRequirement
-    jobs:
-    - BlueshieldOfficer
-    - SeniorOfficer
-    - HeadOfSecurity
-    - Warden
-  items:
-  - WeaponPistolN1984SecurityNonLethal
+#- type: loadout
+#  id: LoadoutSecurityPistolN1984NonLethal
+#  category: JobsSecurityWeapons
+#  cost: 10
+#  canBeHeirloom: true
+#  guideEntry: SecurityWeapons
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 604800 # 1 Week
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityWeapons
+#  - !type:CharacterJobRequirement
+#    jobs:
+#    - BlueshieldOfficer
+#    - SeniorOfficer
+#    - HeadOfSecurity
+#    - Warden
+#  items:
+#  - WeaponPistolN1984SecurityNonLethal
 
 - type: loadout
   id: LoadoutSecurityPistolViper
