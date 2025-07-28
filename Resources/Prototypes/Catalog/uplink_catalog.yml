@@ -772,6 +772,7 @@
     Telecrystal: 0
   categories:
   - UplinkDeception
+  conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
 
