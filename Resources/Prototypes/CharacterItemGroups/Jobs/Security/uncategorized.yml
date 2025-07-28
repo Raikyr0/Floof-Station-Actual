@@ -85,10 +85,10 @@
       id: LoadoutSecurityRevolverDeckard
     - type: loadout
       id: LoadoutSecurityRevolverDeckardNonLethal
-    - type: loadout
-      id: LoadoutSecurityPistolN1984
-    - type: loadout
-      id: LoadoutSecurityPistolN1984NonLethal
+   # - type: loadout
+   #   id: LoadoutSecurityPistolN1984
+   # - type: loadout
+   #   id: LoadoutSecurityPistolN1984NonLethal
     - type: loadout
       id: LoadoutSecurityPistolViper
     - type: loadout
