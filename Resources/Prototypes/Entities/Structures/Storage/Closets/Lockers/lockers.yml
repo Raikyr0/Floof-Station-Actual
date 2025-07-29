@@ -187,7 +187,7 @@
     stateDoorOpen: freezer_open
     stateDoorClosed: freezer_door
   - type: ExplosionResistance
-    damageCoefficient: 0.50
+    damageCoefficient: 0.01
   - type: AntiRottingContainer
 
 - type: entity
@@ -196,8 +196,7 @@
   name: freezer
   suffix: Kitchen, Locked
   components:
-  - type: AccessReader
-    access: [ [ "Kitchen" ] ]
+  - type: AntiRottingContainer # Floof - This also applies to the freezer on the Pathfinder which Salvage can't open
 
 # Botanist
 - type: entity
