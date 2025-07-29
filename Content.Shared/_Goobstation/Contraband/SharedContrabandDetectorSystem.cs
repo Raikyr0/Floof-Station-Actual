@@ -1,4 +1,4 @@
-using Content.Shared.Contraband;
+using Content.Shared._Goobstation.Contraband;
 using Content.Shared.Power;
 using Robust.Shared.Timing;
 using Content.Shared.Inventory;
