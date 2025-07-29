@@ -2,7 +2,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
-using Content.Shared._Goobstation.Contraband
+using Content.Shared._Goobstation.Contraband;
 
 namespace Content.Shared._Goobstation.Contraband;
 
