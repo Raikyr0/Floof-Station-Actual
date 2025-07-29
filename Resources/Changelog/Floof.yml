@@ -6957,3 +6957,24 @@ Entries:
   id: 733
   time: '2025-07-27T17:43:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1249
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Station Pets will no longer go Doomguy on small critters
+  id: 734
+  time: '2025-07-28T20:42:00.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1244
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added +1 Body Bag to Medicine Lockers
+  id: 735
+  time: '2025-07-28T20:45:10.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1250
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Succubus Trait
+  id: 736
+  time: '2025-07-28T20:58:34.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1083
