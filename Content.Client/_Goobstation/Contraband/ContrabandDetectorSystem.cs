@@ -1,6 +1,6 @@
-using Content.Goobstation.Shared.Contraband;
+using Content.Server._Goobstation.Contraband;
 
-namespace Content.Goobstation.Client.Contraband;
+namespace Content.Cilent._Goobstation.Contraband;
 
 public sealed class ContrabandDetectorSystem : SharedContrabandDetectorSystem
 {
