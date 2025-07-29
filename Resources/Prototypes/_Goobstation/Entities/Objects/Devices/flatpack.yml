@@ -5,7 +5,7 @@
   description: A flatpack used for constructing a contraband detector.
   components:
   - type: Flatpack
-    entity: ContrabandDetectorAnchored
+    entity: ContrabandDetectorSecure
   - type: Sprite
     layers:
     - state: fax-machine
