@@ -187,3 +187,5 @@
     maxItemSize: Huge
     grid:
     - 0,0,19,9
+  - type: HideContrabandContent #Goobstation Contraband detector - Tecnicly the content is in another dimention
+  
