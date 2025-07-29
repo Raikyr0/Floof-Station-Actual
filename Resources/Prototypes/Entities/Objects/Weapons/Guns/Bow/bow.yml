@@ -45,6 +45,7 @@
       projectiles: !type:ContainerSlot
   - type: ContainerAmmoProvider
     container: projectiles
+  - type: UndetectableContraband #Goobstation-Contraband detector
 
 - type: entity
   id: BowImprovised
