@@ -18,6 +18,7 @@
           type: StorageBoundUserInterface
         enum.ChameleonUiKey.Key:
           type: ChameleonBoundUserInterface
+    - type: HideContrabandContent #Goobstation Contraband detector - Tecnicly the content is in another dimention
 
 - type: entity
   parent: Clothing
