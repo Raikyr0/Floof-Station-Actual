@@ -196,7 +196,8 @@
   name: freezer
   suffix: Kitchen, Locked
   components:
-  - type: AntiRottingContainer # Floof - This also applies to the freezer on the Pathfinder which Salvage can't open
+  - type: AccessReader
+    access: [ [ "Maintenance" ] ]
 
 # Botanist
 - type: entity
