@@ -118,6 +118,7 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     fillBaseName: spear
+  - type: UndetectableContraband #Goobstation-Contraband detector
 
 - type: entity
   name: reinforced spear
