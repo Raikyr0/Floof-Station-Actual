@@ -875,6 +875,7 @@
       - WeaponRifleGestio
       - MagazineMagnumLeverRifle # Goobstation
       - MagazineMagnumLeverRifleEmpty # Goobstation
+      - ContrabandDetectorCircuitboard # Goobstation
     dynamicRecipes:
       - BolaEnergy
       - BoxBeanbag
