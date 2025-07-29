@@ -835,6 +835,7 @@
       species:
         - Shadowkin
         - Felinid
+        - Rodentia
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
