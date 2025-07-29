@@ -87,6 +87,7 @@
         whitelist:
           tags:
           - CaneBlade
+  - type: UndetectableContraband #Goobstation-Contraband detector
 
 - type: entity
   id: CaneSheathFilled
