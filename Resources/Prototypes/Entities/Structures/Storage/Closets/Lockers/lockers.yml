@@ -197,7 +197,7 @@
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
-    access: [ [ "Maintenance" ] ]
+    access: [ [ "Maintenance" ] ] # Floofstation - Why does a fridge need a lock?
 
 # Botanist
 - type: entity
