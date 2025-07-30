@@ -769,6 +769,8 @@
     - MothroachCube
     - MouseCube
     - CockroachCube
+    - PigCube # Floofstation
+    - ChickenCube # Floofstation
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - AbominationCube
