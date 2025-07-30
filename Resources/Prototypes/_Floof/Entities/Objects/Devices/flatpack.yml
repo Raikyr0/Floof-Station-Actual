@@ -31,7 +31,7 @@
   parent: BaseFlatpack
   id: TinyFanFlatpack
   name: tiny fan flatpack
-  description: A flatpack used for constructing a tiny fan.
+  description: A flatpack used for constructing a tiny fan. Warning, will anchor in place.
   components:
   - type: Flatpack
     entity: AtmosDeviceFanTiny      
