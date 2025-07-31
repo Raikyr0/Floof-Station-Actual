@@ -67,24 +67,6 @@
     possibleSpawns:
     - MobCow
     
-- type: entity # Floofstation
-  parent: MonkeyCube
-  id: PigCube
-  name: pig cube
-  components:
-  - type: Rehydratable
-    possibleSpawns:
-    - MobPig
-
-- type: entity # Floofstation
-  parent: MonkeyCube
-  id: ChickenCube
-  name: chicken cube
-  components:
-  - type: Rehydratable
-    possibleSpawns:
-    - MobChicken
-
 - type: entity
   parent: MonkeyCube
   id: GoatCube
