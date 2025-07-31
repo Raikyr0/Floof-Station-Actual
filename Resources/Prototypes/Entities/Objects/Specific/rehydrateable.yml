@@ -66,7 +66,7 @@
   - type: Rehydratable
     possibleSpawns:
     - MobCow
-    
+
 - type: entity
   parent: MonkeyCube
   id: GoatCube
