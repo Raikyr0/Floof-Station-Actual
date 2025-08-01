@@ -758,6 +758,8 @@
           damageContainers:
           - Biological
           - BiologicalMetaphysical # Floof - M3739 - #1006
+          - Inorganic
+          - Silicon
         - type: ShowHealthBars
           damageContainers:
           - Biological
