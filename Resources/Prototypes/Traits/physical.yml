@@ -790,7 +790,7 @@
     - !type:TraitReplaceComponent
       components:
         - type: DeadModifier
-          deadThresholdModifier: -99 # We find out if you have a crit status again for the crit traits.
+          deadThresholdModifier: -95 # We find out if you have a crit status again for the crit traits.
 
 - type: trait
   id: BrittleBoneDisease
