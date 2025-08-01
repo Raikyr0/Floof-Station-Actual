@@ -301,5 +301,5 @@
     - Borg
     - MedicalBorg
   functions:
-  - !type:AddImplant
+  - !type:TraitAddImplant
     implants: [ DeathAcidifierImplant ]
