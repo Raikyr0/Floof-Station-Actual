@@ -88,3 +88,5 @@ trait-name-TraitorTeachTarget = Marked for Death
 trait-description-TraitorTeachTarget = Someone or something wants you taught a lesson. Traitors can recieve orders to kill you.
 # Target Consent Traits: End
 
+trait-name-TraitDeathAcidifier = Death Acidifer
+trait-description-TraitDeathAcidifier = For one reason or another, you acidify on death or have a death acidifer implant, possibly due to current or previous work.
