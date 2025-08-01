@@ -91,7 +91,7 @@
       inverted: true
       traits: # Floof - M3739 - #690
         - Tenacity
-        - 
+        - BrittleBoneDisease
   functions:
     - !type:TraitReplaceComponent
       components:
