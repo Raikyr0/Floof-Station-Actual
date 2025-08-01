@@ -66,7 +66,7 @@
       inverted: true
       traits: # Floof - M3739 - #690
         - GlassJaw
-        - 
+        - BrittleBoneDisease
   functions:
     - !type:TraitReplaceComponent
       components:
