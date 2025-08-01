@@ -66,7 +66,7 @@
       inverted: true
       traits: # Floof - M3739 - #690
         - GlassJaw
-        - Redshirt
+        - 
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -91,7 +91,7 @@
       inverted: true
       traits: # Floof - M3739 - #690
         - Tenacity
-        - Redshirt
+        - 
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -790,7 +790,7 @@
     - !type:TraitReplaceComponent
       components:
         - type: DeadModifier
-          deadThresholdModifier: -100
+          deadThresholdModifier: -99 # We find out if you have a crit status again for the crit traits.
 
 - type: trait
   id: BrittleBoneDisease
