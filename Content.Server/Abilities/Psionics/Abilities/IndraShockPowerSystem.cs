@@ -9,6 +9,7 @@ using Content.Shared.Mobs.Components;
 using Content.Shared.Psionics.Glimmer;
 using Content.Shared.Traits.Assorted.Components;
 using Content.Shared.Damage;
+using Robust.Shared.GameObjects;
 
 namespace Content.Server.Abilities.Psionics
 {
@@ -25,10 +26,10 @@ namespace Content.Server.Abilities.Psionics
         {
             base.Initialize();
             
-            SubscribeLocalEvent<IndraShockPowerActionEvent>(OnPowerUsed);
+            SubscribeLocalEvent<PsionicComponent, IndraShockPowerActionEvent>(OnPowerUsed);
         }
 
-        private void OnPowerUsed(EntityUid uid, IndraShockPowerActionEvent args)
+        private void OnPowerUsed(EntityUid uid, IndraShockPowerActionEvent args, PsionicComponent component)
         {
             if (!_psionics.OnAttemptPowerUse(args.Performer, "Indra Shock"))
                 return;
