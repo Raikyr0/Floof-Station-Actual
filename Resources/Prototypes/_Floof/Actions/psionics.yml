@@ -15,3 +15,20 @@
         components:
           - PsionicInsulation
       event: !type:HypnoPowerActionEvent
+
+- type: entity
+  id: ActionIndraShock
+  name: action-name-indra-shock
+  description: action-description-indra-shock
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: EntityTargetAction
+      icon: Interface/VerbIcons/noospheric_zap.png
+      useDelay: 60
+      range: 10
+      itemIconStyle: BigAction
+      event: !type:IndraShockPowerActionEvent
+      event: !type:PsionicHealOtherPowerActionEvent
+        healingAmount:
+          types:
+            Shock: 25 # Using a healing action in reverse :)
