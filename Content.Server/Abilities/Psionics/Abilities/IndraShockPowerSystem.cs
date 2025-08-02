@@ -24,6 +24,7 @@ namespace Content.Server.Abilities.Psionics
         public override void Initialize()
         {
             base.Initialize();
+            
             SubscribeLocalEvent<IndraShockPowerActionEvent>(OnPowerUsed);
         }
 
