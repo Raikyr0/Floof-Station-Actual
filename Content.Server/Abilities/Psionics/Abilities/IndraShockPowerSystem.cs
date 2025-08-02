@@ -33,8 +33,8 @@ namespace Content.Server.Abilities.Psionics
             if (!_psionics.OnAttemptPowerUse(args.Performer, "Indra Shock"))
                 return;
 
-            args.ModifiedAmplification = _psionics.ModifiedAmplification(uid, psionicComponent);
-            args.ModifiedDampening = _psionics.ModifiedDampening(uid, psionicComponent);
+            args.ModifiedAmplification = _psionics.ModifiedAmplification(uid, component);
+            args.ModifiedDampening = _psionics.ModifiedDampening(uid, component);
 
             if (!TryComp<DamageableComponent>(args.Target, out var damageable))
                 return;
