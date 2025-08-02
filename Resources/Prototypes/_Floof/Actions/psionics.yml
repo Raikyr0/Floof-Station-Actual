@@ -28,7 +28,6 @@
       range: 10
       itemIconStyle: BigAction
       event: !type:IndraShockPowerActionEvent
-      event: !type:PsionicHealOtherPowerActionEvent
         healingAmount:
           types:
             Shock: 25 # Using a healing action in reverse :)
