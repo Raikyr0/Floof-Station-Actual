@@ -25,7 +25,6 @@ namespace Content.Server.Abilities.Psionics
         public override void Initialize()
         {
             base.Initialize();
-            
             SubscribeLocalEvent<IndraShockPowerActionEvent>(OnPowerUsed);
         }
 
@@ -33,19 +32,19 @@ namespace Content.Server.Abilities.Psionics
         {
             if (!TryComp(uid, out PsionicComponent? psionicComponent))
                 return;
-        
+
             if (!_psionics.OnAttemptPowerUse(args.Performer, "Indra Shock"))
                 return;
 
-            args.ModifiedAmplification = _psionics.ModifiedAmplification(uid, component);
-            args.ModifiedDampening = _psionics.ModifiedDampening(uid, component);
+            args.ModifiedAmplification = _psionics.ModifiedAmplification(uid, psionicComponent);
+            args.ModifiedDampening = _psionics.ModifiedDampening(uid, psionicComponent);
 
             if (!TryComp<DamageableComponent>(args.Target, out var damageable))
                 return;
 
             if (args.HealingAmount is not null)
-                _damageable.TryChangeDamage(args.Target, args.HealingAmount * args.ModifiedAmplification, true, false, damageableComponent, uid);
-            
+                _damageable.TryChangeDamage(args.Target, args.HealingAmount * args.ModifiedAmplification, true, false, damageable, uid);
+
             _beam.TryCreateBeam(args.Performer, args.Target, "LightningNoospheric");
 
             _stunSystem.TryParalyze(args.Target, TimeSpan.FromSeconds(2.5), false);
