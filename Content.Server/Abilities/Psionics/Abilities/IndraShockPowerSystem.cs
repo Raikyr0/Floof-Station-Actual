@@ -10,6 +10,7 @@ using Content.Shared.Psionics.Glimmer;
 using Content.Shared.Traits.Assorted.Components;
 using Content.Shared.Damage;
 using Robust.Shared.GameObjects;
+using Robust.Shared.Events;
 
 namespace Content.Server.Abilities.Psionics
 {
