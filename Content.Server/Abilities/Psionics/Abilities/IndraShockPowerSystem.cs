@@ -27,7 +27,7 @@ namespace Content.Server.Abilities.Psionics
             SubscribeLocalEvent<IndraShockPowerActionEvent>(OnPowerUsed);
         }
 
-        private void OnPowerUsed(IndraShockPowerActionEvent args)
+        private void OnPowerUsed(EntityUid uid, PsionicComponent component, IndraShockPowerActionEvent args)
         {
             if (!_psionics.OnAttemptPowerUse(args.Performer, "Indra Shock"))
                 return;
