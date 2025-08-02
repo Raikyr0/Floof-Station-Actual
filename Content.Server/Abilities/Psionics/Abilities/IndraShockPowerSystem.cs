@@ -3,6 +3,11 @@ using Content.Shared.StatusEffect;
 using Content.Server.Stunnable;
 using Content.Server.Beam;
 using Content.Shared.Actions.Events;
+using Content.Shared.Mobs.Systems;
+using Content.Shared.Mobs;
+using Content.Shared.Mobs.Components;
+using Content.Shared.Psionics.Glimmer;
+using Content.Shared.Traits.Assorted.Components;
 
 namespace Content.Server.Abilities.Psionics
 {
@@ -12,6 +17,9 @@ namespace Content.Server.Abilities.Psionics
         [Dependency] private readonly StunSystem _stunSystem = default!;
         [Dependency] private readonly StatusEffectsSystem _statusEffectsSystem = default!;
         [Dependency] private readonly BeamSystem _beam = default!;
+        [Dependency] private readonly DamageableSystem _damageable = default!;
+        [Dependency] private readonly GlimmerSystem _glimmer = default!;
+        [Dependency] private readonly SharedPsionicAbilitiesSystem _psionics = default!;
 
 
         public override void Initialize()
