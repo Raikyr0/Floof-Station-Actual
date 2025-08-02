@@ -31,7 +31,7 @@ namespace Content.Server.Abilities.Psionics
 
         private void OnPowerUsed(EntityUid uid, IndraShockPowerActionEvent args)
         {
-            if (!TryComp(uid, out PsionicComponent? component))
+            if (!TryComp(uid, out PsionicComponent? psionicComponent))
                 return;
         
             if (!_psionics.OnAttemptPowerUse(args.Performer, "Indra Shock"))
@@ -40,7 +40,7 @@ namespace Content.Server.Abilities.Psionics
             args.ModifiedAmplification = _psionics.ModifiedAmplification(uid, component);
             args.ModifiedDampening = _psionics.ModifiedDampening(uid, component);
 
-            if (!TryComp<DamageableComponent>(args.Target, out var damageableComponent))
+            if (!TryComp<DamageableComponent>(args.Target, out var damageable))
                 return;
 
             if (args.HealingAmount is not null)
