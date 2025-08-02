@@ -15,8 +15,4 @@ public sealed partial class IndraShockPowerActionEvent : EntityTargetActionEvent
 
     [DataField]
     public DamageSpecifier? HealingAmount = default!;
-
-    /// Controls whether or not a power fires immediately and with no DoAfter
-    [DataField]
-    public bool Immediate;
 }
