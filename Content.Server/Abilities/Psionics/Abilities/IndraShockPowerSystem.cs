@@ -25,7 +25,7 @@ namespace Content.Server.Abilities.Psionics
         public override void Initialize()
         {
             base.Initialize();
-            SubscribeLocalEvent<IndraShockPowerActionEvent>(OnPowerUsed);
+            SubscribeLocalEvent<IndraShockPowerActionEvent>((EntityUid uid, IndraShockPowerActionEvent args) => OnPowerUsed(uid, args));
         }
 
         private void OnPowerUsed(EntityUid uid, IndraShockPowerActionEvent args)
