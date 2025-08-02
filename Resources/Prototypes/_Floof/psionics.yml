@@ -25,3 +25,34 @@
   - !type:RemovePsionicStatSources
   - !type:RemoveAssayFeedback
     assayFeedback: hypnosis-power-feedback
+
+- type: psionicPower
+  id: IndraShockPower
+  name: Indra Shock
+  powerCategories:
+    - Anomalist
+    - Electrokinesis
+  initializeFunctions:
+    - !type:AddPsionicActions
+      actions:
+        - ActionIndraShock
+    - !type:AddPsionicPowerComponents
+      components:
+        - type: IndraShockPower
+    - !type:PsionicFeedbackPopup
+    - !type:PsionicFeedbackSelfChat
+      feedbackMessage: indra-shock-power-initialization-feedback
+    - !type:PsionicModifyGlimmer
+      glimmerModifier: 4
+    - !type:AddPsionicAssayFeedback
+      assayFeedback: indra-shock-power-metapsionic-feedback
+    - !type:AddPsionicStatSources
+      amplificationModifier: 1
+  removalFunctions:
+    - !type:RemovePsionicActions
+    - !type:RemovePsionicPowerComponents
+      components:
+        - type: IndraShockPower
+    - !type:RemovePsionicStatSources
+    - !type:RemoveAssayFeedback
+      assayFeedback: indra-shock-power-metapsionic-feedback
