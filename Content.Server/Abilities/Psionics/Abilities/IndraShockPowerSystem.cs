@@ -8,6 +8,7 @@ using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Psionics.Glimmer;
 using Content.Shared.Traits.Assorted.Components;
+using Content.Shared.Damage;
 
 namespace Content.Server.Abilities.Psionics
 {
@@ -19,8 +20,6 @@ namespace Content.Server.Abilities.Psionics
         [Dependency] private readonly BeamSystem _beam = default!;
         [Dependency] private readonly DamageableSystem _damageable = default!;
         [Dependency] private readonly GlimmerSystem _glimmer = default!;
-        [Dependency] private readonly SharedPsionicAbilitiesSystem _psionics = default!;
-
 
         public override void Initialize()
         {
