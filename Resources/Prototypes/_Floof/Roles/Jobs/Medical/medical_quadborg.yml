@@ -2,7 +2,7 @@
   id: MedicalQuadBorg
   name: job-name-medical-quadborg
   description: job-description-medical-quadborg
-  playTimeTracker: JobMedicalBorg
+  playTimeTracker: JobMedicalQuadBorg
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 21600 #6 hrs floof
