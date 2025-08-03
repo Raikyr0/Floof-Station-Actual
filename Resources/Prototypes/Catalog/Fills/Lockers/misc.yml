@@ -124,6 +124,7 @@
     # - id: CigPackSyndicate # Floof - Taken out due to non-contraband status
     - id: ClothingBackpackDuffelSyndicatePyjamaBundle
     - id: ClothingHandsGlovesCombat # Floof
+    - id: ClothingHandsMercGlovesCombat # Floof
     - id: ClothingBeltMilitaryWebbing
     - id: ClothingBeltMercWebbing # Floof
     - id: ClothingShoesBootsCombatFilled
