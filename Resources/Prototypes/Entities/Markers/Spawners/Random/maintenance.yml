@@ -272,7 +272,7 @@
       - id: Bucket
       - id: RadioHandheld
       - id: AppraisalTool
-      - id: ModularReceiver
+      # - id: ModularReceiver
       - id: WeaponFlareGun
       - id: BarberScissors
       - !type:GroupSelector
@@ -293,7 +293,7 @@
       - id: ResearchDisk5000
       - id: PetCarrier
       - id: DrinkMopwataBottleRandom
-      - id: LidSalami
+      # - id: LidSalami
         weight: 0.05
 
 - type: entity
@@ -324,22 +324,22 @@
       - id: BaseBallBat
       - id: CombatKnife
       - id: Spear
-      - id: RifleStock
-      - id: ModularReceiver
-      - id: HydroponicsToolScythe
+      # - id: RifleStock # Floof - Commenting out somethings that are in this catagory that are kinda useless or don't fit
+      # - id: ModularReceiver
+      # - id: HydroponicsToolScythe
     # Rare Group
     - !type:GroupSelector
       weight: 5
       children:
-      - id: Lighter
-      - id: Matchbox
-      - id: ClothingEyesBlindfold
-      - id: ClothingMaskMuzzle
+      # - id: Lighter
+      # - id: Matchbox
+      # - id: ClothingEyesBlindfold
+      # - id: ClothingMaskMuzzle
       - id: ClothingMaskGasSecurity
-      - id: ShardGlass
-        weight: 2
-      - id: Syringe
-      - id: Mousetrap
+      # - id: ShardGlass
+      #  weight: 2
+      # - id: Syringe
+      # - id: Mousetrap
       - !type:GroupSelector
         weight: 2
         children:
