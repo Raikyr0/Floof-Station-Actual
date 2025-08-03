@@ -11,6 +11,7 @@
         children:
         - id: Lighter
         - id: CigCartonBlue
+        - id: CigPackSyndicate
       # Gar glasses
       - !type:GroupSelector
         children:
@@ -251,7 +252,7 @@
         tableId: SprayPaintTable
         weight: 3
         rolls: !type:RangeNumberSelector
-          range: 1, 3
+          range: 3, 5
       # Uncommon Group
     - !type:GroupSelector
       weight: 23
@@ -293,8 +294,9 @@
       - id: ResearchDisk5000
       - id: PetCarrier
       - id: DrinkMopwataBottleRandom
-      # - id: LidSalami
-        weight: 0.05
+      - id: RandomArtifactSpawner # Floof - helps epi a little
+      # - id: LidSalami # Floof - Commented out due actually garbage
+      #  weight: 0.05
 
 - type: entity
   name: Maint Loot Spawner
@@ -318,40 +320,68 @@
     children:
     # Common Group
     - !type:GroupSelector
-      weight: 95
+      weight: 80
       children:
       - id: Machete
       - id: BaseBallBat
       - id: CombatKnife
       - id: Spear
-      # - id: RifleStock # Floof - Commenting out somethings that are in this catagory that are kinda useless or don't fit
-      # - id: ModularReceiver
+      - id: KukriKnife
+      - id: ThrowingKnife
+      - id: ClothingBeltEnergySheathFilledToy # Floof - Makes security believe there's syndies
+      - id: ToySword # Floof - Just a little bit of psychological torture
+      - id: DBToySword # Floof - for those seccies who use toy swords as meta knoweldge for knowing there's syndies in the round
+      # - id: RifleStock # Floof - Commented out due to lack of impact
+      # - id: ModularReceiver # Floof - Commented out due to lack of impact
       # - id: HydroponicsToolScythe
-    # Rare Group
+    # Uncommon Group
     - !type:GroupSelector
-      weight: 5
+      weight: 15
       children:
-      # - id: Lighter
-      # - id: Matchbox
-      # - id: ClothingEyesBlindfold
-      # - id: ClothingMaskMuzzle
+      # - id: Lighter # Floof - Commented out due wrong catagory
+      # - id: Matchbox # Floof - Commented out due wrong catagory
+      # - id: ClothingEyesBlindfold # Floof - Commented out due wrong catagory
+      # - id: ClothingMaskMuzzle # Floof - Commented out due wrong catagory
       - id: ClothingMaskGasSecurity
-      # - id: ShardGlass
+      - id: ClothingMaskGasMerc
+      - id: ClothingMaskGasExplorer
+      # - id: ShardGlass # Floof - actually just rubbish
       #  weight: 2
-      # - id: Syringe
-      # - id: Mousetrap
-      - !type:GroupSelector
-        weight: 2
-        children:
-        - id: Brutepack1
-        - id: Ointment1
-        - id: Gauze1
+      # - id: Syringe # Floof - Commented out due wrong catagory
+      # - id: Mousetrap # Floof - Commented out due wrong catagory
+      #- !type:GroupSelector
+      #  weight: 5
+      #  children:
+      #  - id: Brutepack1 # Floof - Commented out due wrong catagory
+      #  - id: Ointment1 # Floof - Commented out due wrong catagory
+      #  - id: Gauze1 # Floof - Commented out due wrong catagory
       - id: Bola
       - id: SurvivalKnife
       - id: ScalpelShiv
       - id: Shiv
       - id: SawImprov
       - id: HydroponicsToolMiniHoe
+      - id: Stunprod # Floof
+      - id: Sledgehammer # Floof
+      - id: WoodenBuckler # Floof
+    # Rare Group 
+    - !type:GroupSelector # Floof - Rare single shot guns
+      weight: 4
+      children:
+      - id: Musket
+      - id: WeaponPistolFlintlock
+      - id: WeaponShotgunHandmade
+      - id: WeaponShotgunImprovisedLoaded
+      - id: WeaponSniperMosin
+      - id: TelescopicShield
+      - id: SmokeGrenade # Floof - Harmless distraction
+    # Super Rare Group  
+    - !type:GroupSelector # Floof - Super Rare ding ding ding you won the lottery
+      weight: 1
+      children:
+      - id: WeaponLaserSvalinn
+      - id: WeaponDisabler # Floof - Seccie lost it
+      - id: WeaponSniperGrand # Floof - Same status as a Mosin
 
 - type: entity
   name: Maint Loot Spawner
