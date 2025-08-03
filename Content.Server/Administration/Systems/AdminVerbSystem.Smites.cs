@@ -593,6 +593,20 @@ public sealed partial class AdminVerbSystem
                 Message = Loc.GetString("admin-smite-maid-description")
             };
             args.Verbs.Add(maiden);
+
+            Verb chameleon = new()
+            {
+                Text = "Chameleon",
+                Category = VerbCategory.Smite,
+                Icon = new SpriteSpecifier.Rsi(new ("/Textures/Clothing/Uniforms/Jumpskirt/janimaid.rsi"), "icon"),
+                Act = () =>
+                {
+                    SetOutfitCommand.SetOutfit(args.Target, "Infiltrator", EntityManager, (_, clothing)
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-smite-chameleon-description")
+            };
+            args.Verbs.Add(chameleon);
         }
 
         Verb angerPointingArrows = new()
