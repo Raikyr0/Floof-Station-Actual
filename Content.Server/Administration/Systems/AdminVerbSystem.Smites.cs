@@ -601,7 +601,7 @@ public sealed partial class AdminVerbSystem
                 Icon = new SpriteSpecifier.Rsi(new ("/Textures/Clothing/Uniforms/Jumpskirt/janimaid.rsi"), "icon"),
                 Act = () =>
                 {
-                    SetOutfitCommand.SetOutfit(args.Target, "Infiltrator", EntityManager, (_, clothing)
+                    SetOutfitCommand.SetOutfit(args.Target, "Infiltrator", EntityManager, (_, clothing));
                 },
                 Impact = LogImpact.Extreme,
                 Message = Loc.GetString("admin-smite-chameleon-description")
