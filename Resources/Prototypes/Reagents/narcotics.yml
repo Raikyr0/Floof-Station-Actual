@@ -8,7 +8,7 @@
   color: "#FAFAFA"
   boilingPoint: 212.0  # Dexosyephedrine vape when?
   meltingPoint: 170.0
-  pricePerUnit: 300
+  pricePerUnit: 300 # Floof - We're Breaking Bad
   metabolisms:
     Poison:
       effects:
@@ -81,7 +81,7 @@
   color: "#D2FFFA"
   boilingPoint: 255.0
   meltingPoint: 36.0
-  pricePerUnit: 100
+  pricePerUnit: 100 # Floof - Selling Meth
   metabolisms:
     Narcotic:
       effects:
@@ -135,7 +135,7 @@
   color: "#9A040E"
   boilingPoint: 212.0
   meltingPoint: 170.0
-  pricePerUnit: 1000
+  pricePerUnit: 1000 # Floof - Costs more due to Syndie Only
   metabolisms:
     Narcotic:
       metabolismRate: 1.0
@@ -208,7 +208,7 @@
   flavor: bitter
   flavorMinimum: 0.05
   color: "#808080"
-  pricePerUnit: 50
+  pricePerUnit: 50 # Floof - Selling Drugs
   physicalDesc: reagent-physical-desc-crystalline
   plantMetabolism:
   - !type:PlantAdjustNutrition
@@ -295,7 +295,7 @@
   physicalDesc: reagent-physical-desc-syrupy
   flavor: bitter
   color: "#63806e"
-  pricePerUnit: 50
+  pricePerUnit: 50 # Floof - Selling Drugs
   metabolisms:
     Narcotic:
       effects:
@@ -325,7 +325,7 @@
   physicalDesc: reagent-physical-desc-powdery
   flavor: bitter
   color: "#ffff00"
-  pricePerUnit: 25
+  pricePerUnit: 25 # Floof - Selling Cheap Drugs
   metabolisms:
     Narcotic:
       effects:
@@ -346,7 +346,7 @@
   color: "#128e80"
   boilingPoint: 444.0
   meltingPoint: 128.0
-  pricePerUnit: 1000
+  pricePerUnit: 1000 # Floof - High Syndie only price
   metabolisms:
     Narcotic:
       effects:
@@ -474,7 +474,7 @@
   physicalDesc: reagent-physical-desc-soothing
   flavor: paintthinner
   color: "#EE35FF"
-  pricePerUnit: 100
+  pricePerUnit: 100 # Floof - Selling Drugs
   metabolisms:
     Narcotic:
       effects:
