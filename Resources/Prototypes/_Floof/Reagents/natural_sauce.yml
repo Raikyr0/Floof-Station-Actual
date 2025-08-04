@@ -6,6 +6,7 @@
   physicalDesc: reagent-physical-desc-sticky
   flavor: salty
   color: "#ffffff"
+  pricePerUnit: 20
   viscosity: 0.35
   recognizable: true
   metabolisms:
