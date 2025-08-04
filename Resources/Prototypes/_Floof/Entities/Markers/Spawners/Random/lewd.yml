@@ -351,3 +351,12 @@
       weight: 0.33
     - id: WeaponLaserSvalinn
       weight: 0.33
+
+- type: entityTable
+  id: FunMaleLootboxSmokes
+  table: !type:GroupSelector
+    children:
+    - id: CigarCase
+    - id: CigarGoldCase
+    - id: CigarBluespace
+    - id: CigPackSyndicate
