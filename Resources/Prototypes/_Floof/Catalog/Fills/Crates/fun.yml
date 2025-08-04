@@ -7,3 +7,28 @@
     - type: StorageFill
       contents:
         - id: DrumkitInstrument
+
+- type: entity
+  id: CrateFunMaleLootbox
+  parent: CrateGenericSteel
+  name: the boys loot crate
+  description: Contains random items that boys love.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: FunMaleLootboxBooze
+          rolls: !type:ConstantNumberSelector { value: 1 }
+        - !type:NestedSelector
+          tableId: LewdFleshlights
+          rolls: !type:ConstantNumberSelector { value: 1 }
+        - !type:NestedSelector
+          tableId: FunMaleLootboxHat
+          rolls: !type:ConstantNumberSelector { value: 1 }
+        - !type:NestedSelector
+          tableId: FunMaleLootboxHomeDefense
+          rolls: !type:ConstantNumberSelector { value: 1 }
+        - id: DrinkSpaceLube
+          amount: !type:ConstantNumberSelector { value: 1 }
