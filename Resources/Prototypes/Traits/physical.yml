@@ -839,6 +839,10 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Arachne
   functions:
     - !type:TraitPushDescription
       descriptionExtensions:
@@ -855,6 +859,66 @@
       partSymmetry: Right
       protoId: SpeedRightLeg
       slotId: "right leg"
+
+- type: trait
+  id: BionicLegArachne # Floof
+  points: -8
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+        - Gladiator # Floof
+        - Anomaly
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Arachne
+  functions:
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-bionic-leg-message
+          fontSize: 12
+          requireDetailRange: true
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Left
+      protoId: SpeedLeftLeg
+      slotId: "left leg (fore)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Left
+      protoId: SpeedLeftLeg
+      slotId: "left leg (second)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Left
+      protoId: SpeedLeftLeg
+      slotId: "left leg (third)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Left
+      protoId: SpeedLeftLeg
+      slotId: "left leg (hind)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Right
+      protoId: SpeedRightLeg
+      slotId: "right leg (fore)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Right
+      protoId: SpeedRightLeg
+      slotId: "right leg (second)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Right
+      protoId: SpeedRightLeg
+      slotId: "right leg (third)"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Leg
+      partSymmetry: Right
+      protoId: SpeedRightLeg
+      slotId: "right leg (hind)"
 
 - type: trait
   id: LightAmplification
