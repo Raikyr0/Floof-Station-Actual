@@ -298,3 +298,56 @@
       children:
       - id: ShockCollar
       - id: RemoteSignaller
+
+- type: entityTable
+  id: FunMaleLootboxBooze
+  table: !type:GroupSelector
+    children:
+    - id: DrinkBeerBottleFull
+      amount: !type:ConstantNumberSelector { value: 6 }
+    - id: DrinkBeerCan
+      amount: !type:ConstantNumberSelector { value: 6 }
+    - id: DrinkBeerGrowler
+    - !type:AllSelector
+      children:
+      - id: DrinkWhiskeyBottleFull
+      - id: DrinkGlass
+    - !type:AllSelector
+      children:
+      - id: DrinkRumBottleFull
+      - id: DrinkGlass ClothingHeadFishCap
+
+- type: entityTable
+  id: FunMaleLootboxHat
+  table: !type:GroupSelector
+    children:
+    - id: ClothingHeadFishCap
+    - id: ClothingHeadHatCowboyBrown
+    - id: ClothingHeadHatCowboyBlack
+    - id: ClothingHeadHatCowboyGrey
+    - id: ClothingHeadHatCowboyWhite
+    - id: ClothingHeadHatCowboyBountyHunter
+    - id: ClothingHeadHatStrawHat
+    - id: ClothingHeadHatTrucker
+    - id: ClothingHeadHatOutlawHat
+    - id: ClothingHeadHatHoshat
+    - id: ClothingHeadHatBeretMerc
+    - id: ClothingHeadHatRichard
+    - id: ClothingHeadHelmetTemplar
+
+- type: entityTable
+  id: FunMaleLootboxHomeDefense
+  table: !type:GroupSelector
+    children:
+    - id: WeaponSniperMosin
+      weight: 50
+    - id: Musket
+      weight: 48
+    - id: WeaponRevolverPirate
+      weight: 1
+    - id: WeaponRevolverArgenti
+      weight: 0.34
+    - id: WeaponRevolverPython
+      weight: 0.33
+    - id: WeaponLaserSvalinn
+      weight: 0.33
