@@ -303,11 +303,11 @@
   id: FunMaleLootboxBooze
   table: !type:GroupSelector
     children:
-    - id: DrinkBeerBottleFull
+    - id: DrinkBeerBottleFull # It's a sixpack
       amount: !type:ConstantNumberSelector { value: 6 }
-    - id: DrinkBeerCan
+    - id: DrinkBeerCan # It's a sixpack
       amount: !type:ConstantNumberSelector { value: 6 }
-    - id: DrinkBeerGrowler
+    - id: DrinkBeerGrowler # It's a VB LONGNECK
     - !type:AllSelector
       children:
       - id: DrinkWhiskeyBottleFull
@@ -336,7 +336,7 @@
     - id: ClothingHeadHelmetTemplar
 
 - type: entityTable
-  id: FunMaleLootboxHomeDefense
+  id: FunMaleLootboxHomeDefense # As the founding fathers intended
   table: !type:GroupSelector
     children:
     - id: WeaponSniperMosin
