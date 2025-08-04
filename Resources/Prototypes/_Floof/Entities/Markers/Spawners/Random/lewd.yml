@@ -315,7 +315,7 @@
     - !type:AllSelector
       children:
       - id: DrinkRumBottleFull
-      - id: DrinkGlass ClothingHeadFishCap
+      - id: DrinkGlass
 
 - type: entityTable
   id: FunMaleLootboxHat
