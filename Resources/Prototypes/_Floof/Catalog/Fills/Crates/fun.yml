@@ -32,3 +32,9 @@
           rolls: !type:ConstantNumberSelector { value: 1 }
         - id: DrinkSpaceLube
           amount: !type:ConstantNumberSelector { value: 1 }
+        - !type:NestedSelector
+          tableId: FunMaleLootboxSmokes
+          rolls: !type:ConstantNumberSelector { value: 1 }
+        - id: FlippoEngravedLighter
+          amount: !type:ConstantNumberSelector { value: 1 }
+          
