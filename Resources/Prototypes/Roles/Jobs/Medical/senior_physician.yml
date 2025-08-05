@@ -7,7 +7,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 144000 # Floofstation 40 hrs
+      min: 432000 # Floofstation - 120 hrs
+    - !type:CharacterPlaytimeRequirement # Floof - Imagine a teaching role who doesn't know chem which they're supposed to teach.
+      tracker: JobChemist
+      min: 43200 # Floofstation - 12 hours
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
   supervisors: job-supervisors-cmo
