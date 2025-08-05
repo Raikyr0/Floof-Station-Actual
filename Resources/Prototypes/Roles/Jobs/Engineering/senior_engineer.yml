@@ -7,7 +7,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 144000 # Floofstation 40 hrs
+      min: 432000 # Floofstation 120 hours
+    - !type:CharacterPlaytimeRequirement # Floof - You can't be a teaching role without knowing ATMOS.
+      tracker: JobAtmosphericTechnician
+      min: 43200 # Floofstation - 12 hours
   antagAdvantage: 3 # Floof - Reduced TC: External Access + Engineering
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
