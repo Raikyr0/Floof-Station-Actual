@@ -9,7 +9,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 57600 # Floofstation - 16 hour
+      min: 172800 # Floofstation - 48 hours
+    - !type:CharacterPlaytimeRequirement # Floof - Imagine a CMO who CAN'T do chems
+      tracker: JobChemist
+      min: 43200 # Floofstation - 12 hours
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
