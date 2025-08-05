@@ -6,10 +6,13 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
       department: Command
-      min: 14400 # Floofstation - 4 hour
+      min: 14400 # Floofstation - 4 hours
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
       department: Security
-      min: 57600 # Floofstation - 16 hour
+      min: 259200 # Floofstation - 72 hours
+    - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
+      department: Justice
+      min: 86400 # Floofstation - 24 hours - you MUST know space law
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
