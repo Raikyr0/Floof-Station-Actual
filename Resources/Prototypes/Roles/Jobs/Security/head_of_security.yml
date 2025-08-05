@@ -13,6 +13,9 @@
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
       department: Justice
       min: 86400 # Floofstation - 24 hours - you MUST know space law
+    - !type:CharacterPlaytimeRequirement # DeltaV - JobSecurityOfficer time requirement. Make them experienced in proper officer work.
+      tracker: JobWarden
+      min: 86400 # Floofstation - 24 hours
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
