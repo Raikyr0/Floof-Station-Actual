@@ -825,10 +825,10 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -2
-            Toxin: -2
-            Airloss: -2
-            Brute: -2 # Was 2, Buffed due to limb damage changes # Floof - reverted
+            Burn: -4
+            Toxin: -4
+            Airloss: -4
+            Brute: -4
 
 - type: reagent
   id: Ultravasculine
@@ -1191,10 +1191,10 @@
             max: 213.0
           damage:
             groups:
-              Brute: -4
-              Burn: -5
-            types:
-              Poison: -2
+              Brute: -15
+              Burn: -15
+              Toxin: -10
+              Airloss: -10
 
 - type: reagent
   id : Aloxadone
