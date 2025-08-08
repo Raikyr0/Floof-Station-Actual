@@ -65,3 +65,43 @@
           - 0 # Ammonia
           - 5610.51315 # N2O
         temperature: 72
+
+- type: entity
+  parent: StorageCanister
+  id: LargeStorageCanister
+  name: large storage canister
+  components:
+    - type: GasCanister
+      gasMixture:
+        volume: 2000
+        moles: # List of gasses for easy reference
+          - 0 # oxygen
+          - 0 # nitrogen
+          - 0 # CO2
+          - 0 # Plasma
+          - 0 # Tritium
+          - 0 # Water vapor
+          - 0 # Ammonia
+          - 0 # N2O
+          - 0 # Frezon
+        temperature: 293.15
+
+- type: entity
+  parent: StorageCanister
+  id: SuperLargeStorageCanister
+  name: super large storage canister
+  components:
+    - type: GasCanister
+      gasMixture:
+        volume: 5000
+        moles: # List of gasses for easy reference
+          - 0 # oxygen
+          - 0 # nitrogen
+          - 0 # CO2
+          - 0 # Plasma
+          - 0 # Tritium
+          - 0 # Water vapor
+          - 0 # Ammonia
+          - 0 # N2O
+          - 0 # Frezon
+        temperature: 293.15
