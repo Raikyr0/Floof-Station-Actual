@@ -94,14 +94,5 @@
     - type: GasCanister
       gasMixture:
         volume: 5000
-        moles: # List of gasses for easy reference
-          - 0 # oxygen
-          - 0 # nitrogen
-          - 0 # CO2
-          - 0 # Plasma
-          - 0 # Tritium
-          - 0 # Water vapor
-          - 0 # Ammonia
-          - 0 # N2O
-          - 0 # Frezon
+        moles: []
         temperature: 293.15
