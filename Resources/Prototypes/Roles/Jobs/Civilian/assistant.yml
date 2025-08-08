@@ -3,7 +3,6 @@
   name: job-name-passenger
   description: job-description-passenger
   playTimeTracker: JobPassenger
-  antagAdvantage: -5 # Floof - No Access and a dream
   startingGear: PassengerGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone
