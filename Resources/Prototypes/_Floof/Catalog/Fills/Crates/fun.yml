@@ -10,7 +10,7 @@
 
 - type: entity
   id: CrateFunMaleLootbox
-  parent: CrateGenericSteel
+  parent: CratePrivateSecure
   name: the boys loot crate
   description: Contains random items that boys love.
   components:
