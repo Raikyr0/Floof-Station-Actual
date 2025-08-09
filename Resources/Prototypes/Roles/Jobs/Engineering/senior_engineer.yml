@@ -11,7 +11,6 @@
     - !type:CharacterPlaytimeRequirement # Floof - You can't be a teaching role without knowing ATMOS.
       tracker: JobAtmosphericTechnician
       min: 43200 # Floofstation - 12 hours
-  antagAdvantage: 3 # Floof - Reduced TC: External Access + Engineering
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce
