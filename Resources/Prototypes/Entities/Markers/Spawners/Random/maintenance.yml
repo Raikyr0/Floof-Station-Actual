@@ -373,8 +373,6 @@
       - id: WeaponShotgunHandmade
       - id: WeaponShotgunImprovisedLoaded
       - id: WeaponSniperMosin
-      - id: TelescopicShield
-      - id: SmokeGrenade # Floof - Harmless distraction
     # Super Rare Group  
     - !type:GroupSelector # Floof - Super Rare ding ding ding you won the lottery
       weight: 1
