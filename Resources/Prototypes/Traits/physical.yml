@@ -393,6 +393,7 @@
       inverted: true
       traits:
         - Claws
+        - YokaiJorogumo
   functions:
     - !type:TraitModifyUnarmed
       soundHit:
@@ -424,6 +425,7 @@
       inverted: true
       traits:
         - Talons
+        - YokaiJorogumo
   functions:
     - !type:TraitModifyUnarmed
       soundHit:
@@ -455,6 +457,7 @@
       traits:
         - Talons
         - Claws
+        - YokaiJorogumo
   functions:
     - !type:TraitModifyUnarmed
       soundHit:
@@ -478,6 +481,7 @@
       traits:
         - Claws
         - Talons
+        - YokaiJorogumo
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterTraitRequirement
