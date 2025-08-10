@@ -311,6 +311,8 @@
     - type: Damageable
       damageContainer: BiologicalMetaphysical
       damageModifierSet: YokaiNekomata
+  - !type:TraitAddComponent
+    components:
     - type: PotentiaModifier
       potentiaMultiplier: 1.5
 
@@ -337,6 +339,8 @@
     - type: Damageable
       damageContainer: BiologicalMetaphysical
       damageModifierSet: YokaiJorogumo
+  - !type:TraitAddComponent
+    components:
     - type: SolutionContainerManager
       solutions:
         melee:
