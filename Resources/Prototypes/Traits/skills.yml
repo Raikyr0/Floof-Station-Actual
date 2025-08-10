@@ -217,6 +217,7 @@
       inverted: true
       traits:
         - PsionicInsulation
+        - YokaiNekomata
 
 - type: trait
   id: PsionicInsulation
