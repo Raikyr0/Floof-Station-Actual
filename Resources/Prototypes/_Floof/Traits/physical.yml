@@ -290,3 +290,67 @@
   - !type:TraitModifySilicon
     batteryDrainModifier: -0.25 # Floof - M3739 - #1209 - Roughly 32 minutes on a medium capacity power cell.
     
+- type: trait
+  id: YokaiNekomata
+  category: Physical
+  points: 0
+  slots: 0
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Felinid
+        - Tajaran
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+      - HighPotential
+      - LowPotential
+  functions:
+  - !type:TraitModifyComponent
+    components:
+    - type: Damageable
+      damageContainer: BiologicalMetaphysical
+      damageModifierSet: YokaiNekomata
+    - type: PotentiaModifier
+      potentiaMultiplier: 1.5
+
+- type: trait
+  id: YokaiJorogumo
+  category: Physical
+  points: 0
+  slots: 0
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Arachne
+        - Arachnid
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Talons
+        - Claws
+        - NaturalWeaponRemoval
+        - StrikingCalluses
+  functions:
+  - !type:TraitModifyComponent
+    components:
+    - type: Damageable
+      damageContainer: BiologicalMetaphysical
+      damageModifierSet: YokaiJorogumo
+    - type: SolutionContainerManager
+      solutions:
+        melee:
+          reagents:
+          - ReagentId: ChloralHydrate # I'm not sure what I want here
+            Quantity: 50
+    - type: MeleeChemicalInjector
+      solution: melee
+      transferAmount: 3
+  - !type:TraitModifyUnarmed
+    soundHit:
+      collection: AlienClaw
+    animation: WeaponArcClaw
+      damage:
+        types:
+          Piercing: 6
+          Poison: 4
