@@ -307,7 +307,7 @@
       - LowPotential
       - LatentPsychic
   functions:
-  - !type:TraitModifyComponent
+  - !type:TraitReplaceComponent
     components:
     - type: Damageable
       damageContainer: BiologicalMetaphysical
@@ -336,7 +336,7 @@
         - NaturalWeaponRemoval
         - StrikingCalluses
   functions:
-  - !type:TraitModifyComponent
+  - !type:TraitReplaceComponent
     components:
     - type: Damageable
       damageContainer: BiologicalMetaphysical
