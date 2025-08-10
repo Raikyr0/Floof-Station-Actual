@@ -305,6 +305,7 @@
       traits:
       - HighPotential
       - LowPotential
+      - LatentPsychic
   functions:
   - !type:TraitModifyComponent
     components:
@@ -313,6 +314,7 @@
       damageModifierSet: YokaiNekomata
   - !type:TraitAddComponent
     components:
+    - type: Psionic
     - type: PotentiaModifier
       potentiaMultiplier: 1.5
 
