@@ -356,7 +356,7 @@
     soundHit:
       collection: AlienClaw
     animation: WeaponArcClaw
-      damage:
-        types:
-          Piercing: 6
-          Poison: 4
+    damage:
+      types:
+        Piercing: 6
+        Poison: 4
