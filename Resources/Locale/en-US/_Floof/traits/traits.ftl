@@ -88,3 +88,8 @@ trait-name-TraitorTeachTarget = Marked for Death
 trait-description-TraitorTeachTarget = Someone or something wants you taught a lesson. Traitors can recieve orders to kill you.
 # Target Consent Traits: End
 
+trait-name-YokaiNekomata = Nekomata/Bakeneko
+trait-description-YokaiNekomata = You are a Yokai, either a Nekomata or a Bakeneko, only similar in appearance to a Felinid or Tarajan. You are suspectble to Holy damage, but gain increased psionic potential.
+
+trait-name-YokaiJorogumo = Jorogumo/Tsuchigumo
+trait-description-YokaiJorogumo = You are a Yokai, either a Jorogumo or a Tsuchigumo, only similar in appearance to a Arachne or Arachnid. You are suspectable to Holy and Heat damage, but your unarmed attacks poison your victims.
