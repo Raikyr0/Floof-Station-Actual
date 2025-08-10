@@ -341,7 +341,7 @@
       solutions:
         melee:
           reagents:
-          - ReagentId: ChloralHydrate # I'm not sure what I want here
+          - ReagentId: Tazinide
             Quantity: 50
     - type: MeleeChemicalInjector
       solution: melee
