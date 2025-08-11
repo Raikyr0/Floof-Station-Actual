@@ -90,4 +90,25 @@
     - type: PressureImmunity # Floof - Rarer but completely useless outside of actual antag stuff
   - type: Sprite
     sprite: _Shitmed/Mobs/Species/Space/Cobra/organs.rsi
+
+- type: entity
+  parent: OrganAnimalStomach
+  id: OrganXenosSpitterStomach
+  name: Spitter Stomach
+  components:
+  - type: Organ
+    onAdd:
+    - type: BasicEntityAmmoProvider
+      proto: BulletAcid
+      capacity: 1
+      count: 1
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 0.5
+    - type: Gun
+      fireRate: 1
+      useKey: false
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Xeno/alien_spitacid.ogg
     state: heart-on
