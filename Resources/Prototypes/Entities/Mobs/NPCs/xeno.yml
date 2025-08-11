@@ -5,6 +5,8 @@
   parent: SimpleSpaceMobBase
   description: They mostly come at night. Mostly.
   components:
+  - type: Body # Shitmed Change
+    prototype: XenosBasic
   - type: Insulated
   - type: CombatMode
     canDisarm: true
@@ -233,6 +235,8 @@
   parent: MobXeno
   id: MobXenoQueenNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
+  - type: Body # Shitmed Change
+    prototype: XenosQueen
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/queen.rsi
@@ -373,6 +377,8 @@
   parent: MobXeno
   id: MobXenoSpitterNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
+  - type: Body # Shitmed Change
+    prototype: XenosSpitter
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/spitter.rsi
