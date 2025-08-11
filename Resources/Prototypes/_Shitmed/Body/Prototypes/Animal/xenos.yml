@@ -1,0 +1,67 @@
+# Xenos - Placeholders till someone sprites some black and blue looking organs
+
+- type: body
+  id: XenosBasic
+  name: XenosBasic
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - legs
+      organs:
+        lungs: OrganSpaceAnimalLungs # Immunity to airloss
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        heart: OrganSpaceAnimalHeart # Immunity to cold
+        kidneys: OrganAnimalKidneys
+    legs:
+      part: LegsAnimal
+      connections:
+      - feet
+    feet:
+      part: FeetAnimal
+
+- type: body
+  id: XenosSpitter
+  name: XenosSpitter
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - legs
+      organs:
+        lungs: OrganSpaceAnimalLungs # Immunity to airloss
+        stomach: OrganXenosSpitterStomach
+        liver: OrganAnimalLiver
+        heart: OrganSpaceAnimalHeart # Immunity to cold
+        kidneys: OrganAnimalKidneys
+    legs:
+      part: LegsAnimal
+      connections:
+      - feet
+    feet:
+      part: FeetAnimal
+
+- type: body
+  id: XenosQueen
+  name: XenosQueen
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - legs
+      organs:
+        lungs: OrganSpaceAnimalLungs # Immunity to airloss
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        heart: OrganGoliathHeart # Immunity to cold
+        kidneys: OrganAnimalKidneys
+    legs:
+      part: LegsAnimal
+      connections:
+      - feet
+    feet:
+      part: FeetAnimal
