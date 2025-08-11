@@ -91,7 +91,7 @@
   - type: Sprite
     sprite: _Shitmed/Mobs/Species/Space/Cobra/organs.rsi
 
-- type: entity
+- type: entity # Floofstation
   parent: OrganAnimalStomach
   id: OrganXenosSpitterStomach
   name: Spitter Stomach
