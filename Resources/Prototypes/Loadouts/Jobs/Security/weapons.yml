@@ -278,93 +278,93 @@
   items:
   - SpeedLoaderMagnumRubber
 
-- type: loadout
-  id: LoadoutMagazineMagnum
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  items:
-  - MagazineMagnum
+#- type: loadout
+#  id: LoadoutMagazineMagnum
+#  category: JobsSecurityWeapons
+#  cost: 4
+#  exclusive: true
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 3600 # 1 hours
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityEquipment
+#  - !type:CharacterLogicOrRequirement
+#    requirements:
+#    - !type:CharacterDepartmentRequirement
+#      departments:
+#      - Security
+#    - !type:CharacterJobRequirement
+#     jobs:
+#      - BlueshieldOfficer
+#  items:
+#  - MagazineMagnum
 
-- type: loadout
-  id: LoadoutMagazineMagnumRubber
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  items:
-  - MagazineMagnumRubber
+#- type: loadout
+#  id: LoadoutMagazineMagnumRubber
+#  category: JobsSecurityWeapons
+#  cost: 4
+#  exclusive: true
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 3600 # 1 hours
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityEquipment
+#  - !type:CharacterLogicOrRequirement
+#    requirements:
+#    - !type:CharacterDepartmentRequirement
+#      departments:
+#      - Security
+#    - !type:CharacterJobRequirement
+#      jobs:
+#      - BlueshieldOfficer
+#  items:
+#  - MagazineMagnumRubber
 
-- type: loadout
-  id: LoadoutMagazineMagnumSpare
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 604800 # 1 Week
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  items:
-  - MagazineMagnum
+#- type: loadout
+#  id: LoadoutMagazineMagnumSpare
+#  category: JobsSecurityWeapons
+#  cost: 4
+#  exclusive: true
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 604800 # 1 Week
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityEquipment
+#  - !type:CharacterLogicOrRequirement
+#    requirements:
+#    - !type:CharacterDepartmentRequirement
+#      departments:
+#      - Security
+#    - !type:CharacterJobRequirement
+#      jobs:
+#      - BlueshieldOfficer
+#  items:
+#  - MagazineMagnum
 
-- type: loadout
-  id: LoadoutMagazineMagnumRubberSpare
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 604800 # 1 Week
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  items:
-  - MagazineMagnumRubber
+#- type: loadout
+#  id: LoadoutMagazineMagnumRubberSpare
+#  category: JobsSecurityWeapons
+#  cost: 4
+#  exclusive: true
+#  requirements:
+#  - !type:CharacterDepartmentTimeRequirement
+#    department: Security
+#    min: 604800 # 1 Week
+#  - !type:CharacterItemGroupRequirement
+#    group: LoadoutSecurityEquipment
+#  - !type:CharacterLogicOrRequirement
+#    requirements:
+#    - !type:CharacterDepartmentRequirement
+#      departments:
+#      - Security
+#    - !type:CharacterJobRequirement
+#      jobs:
+#      - BlueshieldOfficer
+#  items:
+#  - MagazineMagnumRubber
 
 - type: loadout
   id: LoadoutSpeedLoaderRifleHeavy
