@@ -50,13 +50,13 @@
       id: LoadoutSpeedLoaderMagnumRubber
     - type: loadout
       id: LoadoutSpeedLoaderMagnumRubberSpare
-    - type: loadout
+    # - type: loadout
       id: LoadoutMagazineMagnum
-    - type: loadout
+    # - type: loadout
       id: LoadoutMagazineMagnumRubber
-    - type: loadout
+    # - type: loadout
       id: LoadoutMagazineMagnumSpare
-    - type: loadout
+    # - type: loadout
       id: LoadoutMagazineMagnumRubberSpare
     - type: loadout
       id: LoadoutSpeedLoaderRifleHeavy
