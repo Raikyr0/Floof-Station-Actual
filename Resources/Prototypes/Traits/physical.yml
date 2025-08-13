@@ -492,7 +492,7 @@
     - !type:TraitModifyUnarmed
       flatDamageIncrease:
         types:
-          Blunt: 1
+          Blunt: 2
 
 - type: trait
   id: Spinarette
@@ -553,6 +553,10 @@
         - description: examine-pry-arm-message
           fontSize: 12
           requireDetailRange: true
+    - !type:TraitModifyUnarmed
+      flatDamageIncrease:
+        types:
+          Blunt: 1
 
 - type: trait
   id: PlateletFactories
@@ -962,3 +966,7 @@
         - description: examine-bionic-arm-message
           fontSize: 12
           requireDetailRange: true
+    - !type:TraitModifyUnarmed # Floof - Your arm that can pry open powered doors should be able to PUNCH even harder.
+      flatDamageIncrease:
+        types:
+          Blunt: 2
