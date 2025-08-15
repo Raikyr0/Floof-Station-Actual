@@ -135,3 +135,17 @@
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 2
+
+- type: listing
+  id: UplinkReinforcementRadioSyndicateQuadborg
+  name:  uplink-reinforcement-radio-quadborg-name
+  description: uplink-reinforcement-radio-quadborg-desc
+  productEntity: ReinforcementRadioSyndicateQuadborg
+  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
+  discountCategory: usualDiscounts
+  # discountDownTo:
+  #   Telecrystal: 10
+  cost:
+    Telecrystal: 15 # One Week new Product Deal so people see this new toy more often, then change back to 40 and uncomment the discount after a week
+  categories:
+    - UplinkAllies
