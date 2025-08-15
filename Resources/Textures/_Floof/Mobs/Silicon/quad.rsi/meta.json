@@ -242,7 +242,40 @@
 	{
       "name": "quadspritesalv",
       "directions": 4
+    },
+    {
+      "name": "quadspritesyndicate",
+      "directions": 4
+    },
+    {
+      "name": "quadspritesyndicate_moving",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
-
   ]
 }
