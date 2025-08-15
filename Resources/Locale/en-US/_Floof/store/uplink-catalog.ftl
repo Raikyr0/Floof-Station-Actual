@@ -35,3 +35,6 @@ uplink-dehydrated-clown-rat-name = Dehydrated Crazed Clown Rat Box
 uplink-dehydrated-clown-rat-desc = A box containing a modified clown rat, that after hydration, seeks chaos and enemies of the syndicate. Upon expiration due to physical trauma, it will split into 3-4 more and those will split further, eventually reaching the final generation of rats. 
     DISCLAIMER: remember to pet the rats head for the first generation to be friendly, as further generations are too rabid to discern between you and foe.
 
+uplink-reinforcement-radio-quadborg-name = Syndicate Quadborg
+uplink-reinforcement-radio-quadborg-desc = A lean, mean killing (or fucking) machine with access to an Energy Sword, LMG, Cryptographic Sequencer, and a Pinpointer. Truck nuts and cock optional.
+
