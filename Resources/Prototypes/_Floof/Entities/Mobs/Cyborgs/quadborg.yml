@@ -325,7 +325,7 @@
     layers:
     - state: quadspritesyndicate
       map: ["movement"]
-    - state: quadsprite1
+    - state: quadspritel
       map: ["enum.BorgVisualLayers.Light"]
       shader: unshaded
       visible: false
