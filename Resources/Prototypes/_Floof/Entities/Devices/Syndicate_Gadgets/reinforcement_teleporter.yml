@@ -1,0 +1,15 @@
+- type: entity
+  parent: ReinforcementRadioSyndicate
+  id: ReinforcementRadioSyndicateQuadborg
+  name: syndicate quadborg reinforcement radio
+  description: Call in a well "armed" quadborg, instantly!
+  suffix: NukeOps
+  components:
+  - type: GhostRole
+    name: Syndicate Quadborg
+    description: The Syndicate needs reinforcements. You, a cold silicon killing (or fucking) machine, will help them.
+    rules: floof-ghost-role-information-silicon-rules
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: PlayerBorgSyndicateQuadBattery
