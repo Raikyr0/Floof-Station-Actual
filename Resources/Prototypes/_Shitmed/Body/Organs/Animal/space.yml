@@ -90,6 +90,7 @@
     - type: PressureImmunity # Floof - Rarer but completely useless outside of actual antag stuff
   - type: Sprite
     sprite: _Shitmed/Mobs/Species/Space/Cobra/organs.rsi
+    state: heart-on
 
 - type: entity # Floofstation
   parent: OrganAnimalStomach
@@ -111,4 +112,3 @@
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Xeno/alien_spitacid.ogg
-    state: heart-on
