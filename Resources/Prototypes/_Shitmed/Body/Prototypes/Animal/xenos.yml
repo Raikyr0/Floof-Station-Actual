@@ -50,18 +50,39 @@
   root: torso
   slots:
     torso:
-      part: TorsoAnimal
+      part: TorsoMonkey
       connections:
-      - legs
+      - right arm
+      - left arm
+      - right leg
+      - left leg
       organs:
         lungs: OrganSpaceAnimalLungs # Immunity to airloss
         stomach: OrganAnimalStomach
         liver: OrganAnimalLiver
         heart: OrganGoliathHeart # Immunity to cold
         kidneys: OrganAnimalKidneys
-    legs:
-      part: LegsAnimal
+    right arm:
+      part: RightArmMonkey
       connections:
-      - feet
-    feet:
-      part: FeetAnimal
+      - right hand
+    left arm:
+      part: LeftArmMonkey
+      connections:
+      - left hand
+    right hand:
+      part: RightHandMonkey
+    left hand:
+      part: LeftHandMonkey
+    right leg:
+      part: RightLegMonkey
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegMonkey
+      connections:
+      - left foot
+    right foot:
+      part: RightFootMonkey
+    left foot:
+      part: LeftFootMonkey
