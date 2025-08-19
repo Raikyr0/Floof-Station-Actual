@@ -344,10 +344,10 @@
     - type: SolutionContainerManager
       solutions:
         melee:
-          maxVol: 50
+          maxVol: 10
           reagents:
           - ReagentId: Licoxide
-            Quantity: 50
+            Quantity: 10
   - !type:TraitAddComponent
     components:
     - type: SolutionRegeneration
@@ -358,7 +358,7 @@
           Quantity: 3
     - type: MeleeChemicalInjector
       solution: melee
-      transferAmount: 3
+      transferAmount: 2
   - !type:TraitModifyUnarmed
     soundHit:
       collection: AlienClaw
