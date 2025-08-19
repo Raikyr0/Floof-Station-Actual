@@ -341,8 +341,6 @@
     - type: Damageable
       damageContainer: BiologicalMetaphysical
       damageModifierSet: YokaiJorogumo
-  - !type:TraitAddComponent
-    components:
     - type: SolutionContainerManager
       solutions:
         melee:
@@ -350,6 +348,8 @@
           reagents:
           - ReagentId: Tazinide
             Quantity: 50
+  - !type:TraitAddComponent
+    components:
     - type: SolutionRegeneration
       solution: melee
       generated:
