@@ -344,9 +344,10 @@
   - !type:TraitAddComponent
     components:
     - type: SolutionContainerManager
-      solutions: melee
+      solutions:
         melee:
           reagents:
+            maxVol: 50
           - ReagentId: Tazinide
             Quantity: 50
     - type: SolutionRegeneration
@@ -358,6 +359,10 @@
     - type: MeleeChemicalInjector
       solution: melee
       transferAmount: 3
+    - type: InjectableSolution
+      solution: melee
+    - type: SolutionTransfer
+      maxTransferAmount: 3
   - !type:TraitModifyUnarmed
     soundHit:
       collection: AlienClaw
