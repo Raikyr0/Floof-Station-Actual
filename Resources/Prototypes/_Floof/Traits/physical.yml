@@ -347,6 +347,9 @@
       solutions:
         melee:
           maxVol: 50
+          reagents:
+          - ReagentId: Tazinide
+            Quantity: 50
     - type: SolutionRegeneration
       solution: melee
       generated:
