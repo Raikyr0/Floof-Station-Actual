@@ -346,7 +346,7 @@
         melee:
           maxVol: 50
           reagents:
-          - ReagentId: Tazinide
+          - ReagentId: Licoxide
             Quantity: 50
   - !type:TraitAddComponent
     components:
@@ -354,7 +354,7 @@
       solution: melee
       generated:
         reagents:
-        - ReagentId: Tazinide
+        - ReagentId: Licoxide
           Quantity: 3
     - type: MeleeChemicalInjector
       solution: melee
