@@ -325,14 +325,6 @@
     layers:
     - state: quadspritesyndicate
       map: ["movement"]
-    - state: quadspritel
-      map: ["enum.BorgVisualLayers.Light"]
-      shader: unshaded
-      visible: false
-    - state: quadspriter
-      shader: unshaded
-      map: ["light"]
-      visible: false
   - type: SpriteMovement
     movementLayers:
       movement:
