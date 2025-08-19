@@ -344,11 +344,17 @@
   - !type:TraitAddComponent
     components:
     - type: SolutionContainerManager
-      solutions:
+      solutions: melee
         melee:
           reagents:
           - ReagentId: Tazinide
             Quantity: 50
+    - type: SolutionRegeneration
+      solution: melee
+      generated:
+        reagents:
+        - ReagentId: Tazinide
+          Quantity: 5
     - type: MeleeChemicalInjector
       solution: melee
       transferAmount: 3
