@@ -89,6 +89,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -124,6 +125,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -159,6 +161,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -194,6 +197,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -228,6 +232,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -262,6 +267,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -295,6 +301,7 @@
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
@@ -365,6 +372,7 @@
           traits:
             - LatentPsychic
             - NaturalTelepath
+            - YokaiNekomata
         - !type:CharacterJobRequirement
           jobs:
             - Chaplain
