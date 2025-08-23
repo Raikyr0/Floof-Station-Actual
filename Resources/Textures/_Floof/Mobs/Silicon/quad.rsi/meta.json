@@ -248,6 +248,14 @@
       "directions": 4
     },
     {
+      "name": "quadspritesyndicatel",
+      "directions": 4
+    },
+    {
+      "name": "quadspritesyndicater",
+      "directions": 4
+    },
+    {
       "name": "quadspritesyndicate_moving",
       "directions": 4,
       "delays": [
