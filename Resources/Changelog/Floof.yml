@@ -7422,3 +7422,63 @@ Entries:
   id: 780
   time: '2025-08-11T04:11:09.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1313
+- author: ItsDzordz
+  changes:
+    - type: Add
+      message: Added Avian Mysta Plushie
+  id: 781
+  time: '2025-08-18T04:12:16.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1326
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Atmos Firesuit and the regular Firesuit has Pockets now
+  id: 782
+  time: '2025-08-18T22:08:11.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1325
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added horny rodentia (Rodentia now can have horn markings)
+  id: 783
+  time: '2025-08-18T23:44:35.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1331
+- author: EinsteinEngines
+  changes: []
+  id: 784
+  time: '2025-08-19T00:25:34.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1324
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Clothing received via loadouts will now correctly have the owner's
+        fingerprints.
+  id: 785
+  time: '2025-08-20T18:15:52.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1332
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        NPCs will now retaliate when attacked even if the attacker belongs to a
+        faction they are friendly to. This means that animal friend trait users
+        can ***no longer*** safely kill vent critters (though they can still
+        move them to a spot where they won't hurt anyone).
+  id: 786
+  time: '2025-08-23T00:38:53.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1336
+- author: ashkitten
+  changes:
+    - type: Add
+      message: >-
+        Add Bilingual, Trilingual, and Quadrilingual traits, allowing you to
+        take more languages than ever before at the cost of your precious
+        points.
+    - type: Tweak
+      message: >-
+        Revert basic language allotment to one, effectively increasing the cost
+        of taking two basic languages by one point.
+  id: 787
+  time: '2025-08-23T00:42:29.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1318
