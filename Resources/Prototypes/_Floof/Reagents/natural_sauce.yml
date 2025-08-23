@@ -6,7 +6,6 @@
   physicalDesc: reagent-physical-desc-sticky
   flavor: salty
   color: "#ffffff"
-  pricePerUnit: 5 # Floof - This one is just here because it'll be funny to sell cum
   viscosity: 0.35
   recognizable: true
   metabolisms:
