@@ -7482,3 +7482,10 @@ Entries:
   id: 787
   time: '2025-08-23T00:42:29.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1318
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added larger storage canisters.
+  id: 788
+  time: '2025-08-23T00:45:11.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1302
