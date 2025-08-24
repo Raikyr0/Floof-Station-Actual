@@ -620,6 +620,9 @@
     understands:
     - TauCetiBasic
     - Mouse
+  - type: Access # Floofstation - Hamlet has no doorbump, this is simply for when he's inside the HAMTR
+    tags:
+    - Command
 
 - type: entity
   name: Shiva
