@@ -215,10 +215,9 @@
     baseSprintSpeed: 3.7
   - type: Access
     tags: # Floofstation - So the Hamster may walk out of Epistemics
-    - Command
     - Research
     - Maintenance
-    - Medical
+    - Medical # Floof - Medical is just here for convenience for hamsters to get healed and park their mechs in med 
     
 - type: entity
   parent: MechHamtr
