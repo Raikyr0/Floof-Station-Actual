@@ -371,11 +371,11 @@
     - !type:AddPsionicAssayFeedback
       assayFeedback: healing-word-power-feedback
     - !type:AddPsionicStatSources
-      amplificationModifier: 0.5
+      amplificationModifier: 1
       dampeningModifier: 0.5
     - !type:PsionicAddAvailablePowers
       powerPrototype: RevivifyPower
-      weight: 0.1
+      weight: 0.3
   removalFunctions:
     - !type:RemovePsionicActions
     - !type:RemovePsionicStatSources
