@@ -178,3 +178,31 @@
   - type: GlimmerMobRule
     mobPrototype: MobGlimmerMite
     glimmerTier: Low # get more mites earlier on
+
+- type: entity # Floof
+  id: GlimmerAnomalySpawnFlesh
+  parent: BaseGlimmerSignaturesEvent
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: GlimmerEvent
+    minimumGlimmer: 400
+    maximumGlimmer: 1000
+    report: glimmer-event-report-incursion
+    glimmerBurnLower: 50
+    glimmerBurnUpper: 100
+  - type: GlimmerMobRule
+    mobPrototype: AnomalyFlesh
+
+- type: entity # Floof
+  id: GlimmerAnomalySpawnFlora
+  parent: BaseGlimmerSignaturesEvent
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: GlimmerEvent
+    minimumGlimmer: 400
+    maximumGlimmer: 1000
+    report: glimmer-event-report-incursion
+    glimmerBurnLower: 50
+    glimmerBurnUpper: 100
+  - type: GlimmerMobRule
+    mobPrototype: AnomalyFlora
