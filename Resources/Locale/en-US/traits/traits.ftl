@@ -532,3 +532,9 @@ trait-description-BionicPryArm =
     Your arms have been reinforced with steel and hydraulics. You can force your way out of some unpleasant situations.
     This trait gives you cybernetic DX-1 Pryarms, which let you pry open unpowered doors easily.
     (They essentially function like a crowbar)
+
+trait-name-HealingWordPower = Healing Word
+trait-description-HealingWordPower =
+    Your Mentalic abilities includes the power to heal the wounded.
+    This power, commonly known as "Healing Word", allows the user to heal themselves or others with their mind.
+    In ages past, when this power wasn't well understood, those with this power have been revered as saints and prophets.
