@@ -138,13 +138,13 @@
   components:
   - type: StorageFill
     contents:
-        - id: OxygenTankFilled    
         - !type:GroupSelector
           children:
           - id: ClothingOuterHardsuitCombatOfficer
-            weight: 80
+            weight: 85
           - id: ClothingOuterHardsuitSyndieReverseEngineered # Floof - New Lore Cybersun Shareholders
-            weight: 20
+            weight: 15
+        - id: OxygenTankFilled    
         - id: ClothingShoesBootsSecurityMagboots # Floofstation
         - id: ClothingMaskGasSecurity
   - type: AccessReader
