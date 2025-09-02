@@ -138,10 +138,15 @@
   components:
   - type: StorageFill
     contents:
-        - id: OxygenTankFilled
-        - id: ClothingOuterHardsuitCombatOfficer # DeltaV - ClothingOuterHardsuitSecurity replaced in favour of security combat hardsuit.
+        - id: OxygenTankFilled    
+        - !type:GroupSelector
+          children:
+          - id: ClothingOuterHardsuitCombatOfficer
+            weight: 80
+          - id: ClothingOuterHardsuitSyndieReverseEngineered # Floof - New Lore Cybersun Shareholders
+            weight: 20
         - id: ClothingShoesBootsSecurityMagboots # Floofstation
-        - id: ClothingMaskBreath
+        - id: ClothingMaskGasSecurity
   - type: AccessReader
     access: [["Security"]]
 
