@@ -14,6 +14,7 @@
       - id: Scalpel
       - id: BoneGel # Shitmed Change
       - id: NitrousOxideTankFilled # DeltaV - add anesthesia
+      - id: ClothingMaskBreathMedical # Floof - N20 tank needed a mask
 
 - type: entity
   id: ClothingBackpackDuffelCBURNFilled
@@ -50,6 +51,7 @@
       - id: EmergencyRollerBedSpawnFolded
       - id: BoneGel # Shitmed Change
       - id: NitrousOxideTankFilled # DeltaV - add anesthesia
+      - id: ClothingMaskBreathMedical
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
