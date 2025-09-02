@@ -2528,7 +2528,9 @@
         Piercing: 6
 
 - type: entity
-  parent: MobSpiderAngryBase
+  parent:
+  - MobSpiderAngryBase
+  - MobGiantSpider
   id: MobGiantSpiderAngry
 
 - type: entity
