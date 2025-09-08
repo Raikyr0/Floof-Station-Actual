@@ -82,6 +82,12 @@ trait-description-Stutter =
 trait-name-Southern = Southern Drawl
 trait-description-Southern = You have a different way of speakin'.
 
+trait-name-BoganAccent = Australian Accent
+trait-description-BoganAccent = You have accent from Australia district on Sol.
+
+trait-name-MedievalAccent = Medieval Accent
+trait-description-MedievalAccent = You doth speakth in a peculiar manner.
+
 trait-name-Snoring = Snoring
 trait-description-Snoring = You tend to snore loudly while sleeping.
 
@@ -181,9 +187,11 @@ trait-description-Feeble =
 
 trait-name-MartialArtist = Martial Artist
 trait-description-MartialArtist =
-    You have received formal training in unarmed combat, whether with Fists, Feet, or Claws.
-    Your unarmed melee attacks have a small range increase, and deal 50% more damage.
-    This does not apply to any form of armed melee, only the weapons you were naturally born with.
+    You have received formal training in unarmed combat, whether with fists, claws, feet, or teeth.
+    Your unarmed melee attack is now considered a single-target [color=orange]Power Attack[/color], requiring less precision.
+    Additionally, your unarmed melee attacks deal [color=yellow]20%[/color] more damage, attack [color=yellow]25%[/color] faster, and have [color=yellow]10%[/color] increased range.
+    This has no effect on damage dealt with any form of armed melee.
+    The [color=#9FED58]Boxer[/color], [color=#9FED58]Martial Artist[/color], and [color=#9FED58]Gladiator[/color] jobs start with this trait by default.
 
 trait-name-Vigor = Vigor
 trait-description-Vigor =
@@ -325,7 +333,7 @@ trait-description-Clumsy =
 trait-name-Small = Small
 trait-description-Small =
     You are much smaller than a typical person, and can climb into spaces others would not normally be able to fit into, such as duffel bags.
-    This trait does not in any way modify your character's size, it merely requires that your character be at most the size of a standard Felinid.
+    This trait does not in any way modify your character's size, it merely requires that your character be at most the size of a standard Tajaran.
 
 trait-name-TemperatureTolerance = Temperature Tolerance
 trait-description-TemperatureTolerance =
