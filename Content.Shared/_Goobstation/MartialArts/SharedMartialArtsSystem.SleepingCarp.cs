@@ -81,7 +81,7 @@ public partial class SharedMartialArtsSystem
         }
     }
 
-    private void CarpScrollDelay(Entity<SleepingCarpStudentComponent> ent)
+    private void CarpScrollDelay(Entity<SleepingCarpStudentComponent> ent, EntityUid user)
     {
         var time = _random.Next(ent.Comp.MinUseDelay, ent.Comp.MaxUseDelay);
         ent.Comp.UseAgainTime = _timing.CurTime + TimeSpan.FromSeconds(time);
