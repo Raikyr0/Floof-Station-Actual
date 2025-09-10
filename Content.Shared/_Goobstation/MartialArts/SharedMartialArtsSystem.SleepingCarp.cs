@@ -45,7 +45,7 @@ public partial class SharedMartialArtsSystem
 
         if (studentComp.UseAgainTime == TimeSpan.Zero)
         {
-            CarpScrollDelay((args.User, studentComp));
+            CarpScrollDelay((ent, studentComp));
             return;
         }
 
@@ -62,7 +62,7 @@ public partial class SharedMartialArtsSystem
         switch (studentComp.Stage)
         {
             case < 3:
-                CarpScrollDelay((args.User, studentComp));
+                CarpScrollDelay((ent, studentComp));
                 break;
             case >= 3:
                 if (!TryGrant(ent.Comp, args.User))
