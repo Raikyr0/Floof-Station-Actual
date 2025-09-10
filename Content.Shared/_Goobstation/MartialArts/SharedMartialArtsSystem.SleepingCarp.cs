@@ -38,7 +38,6 @@ public partial class SharedMartialArtsSystem
             args.User);
             return;
         }
-        #a file with cqc-fail-used wasnt upstream idk where its at
             
         var studentComp = EnsureComp<SleepingCarpStudentComponent>(args.User);
 
