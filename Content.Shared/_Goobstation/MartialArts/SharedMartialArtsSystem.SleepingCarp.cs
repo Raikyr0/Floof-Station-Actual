@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Shared._Goobstation.MartialArts.Components;
 using Content.Shared._Goobstation.MartialArts.Events;
+using Content.Shared.IdentityManagement;
 using Content.Shared._Shitmed.Targeting;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Components;
@@ -29,16 +30,25 @@ public partial class SharedMartialArtsSystem
     {
         if (!_netManager.IsServer)
             return;
-
-        if (ent.Comp.Used)
-            return;
-        if (ent.Comp.UseAgainTime == TimeSpan.Zero)
+        
+        if (ent.Comp.MaximumUses <= ent.Comp.CurrentUses)
         {
-            CarpScrollDelay(ent, args.User);
+            _popupSystem.PopupEntity(Loc.GetString("cqc-fail-used", ("manual", Identity.Entity(ent, EntityManager))),
+            args.User,
+            args.User);
+            return;
+        }
+        #a file with cqc-fail-used wasnt upstream idk where its at
+            
+        var studentComp = EnsureComp<SleepingCarpStudentComponent>(args.User);
+
+        if (studentComp.UseAgainTime == TimeSpan.Zero)
+        {
+            CarpScrollDelay((args.User, studentComp));
             return;
         }
 
-        if (_timing.CurTime < ent.Comp.UseAgainTime)
+        if (_timing.CurTime < studentComp.UseAgainTime)
         {
             _popupSystem.PopupEntity(
                 Loc.GetString("carp-scroll-waiting"),
@@ -48,28 +58,29 @@ public partial class SharedMartialArtsSystem
             return;
         }
 
-        switch (ent.Comp.Stage)
+        switch (studentComp.Stage)
         {
             case < 3:
-                CarpScrollDelay(ent, args.User);
+                CarpScrollDelay((args.User, studentComp));
                 break;
             case >= 3:
-                if (!TryGrant(ent.Comp, args.User))
+                if (!TryGrantMartialArt(args.User, ent.Comp))
                     return;
+                _faction.AddFaction(args.User, "Dragon");
                 var userReflect = EnsureComp<ReflectComponent>(args.User);
                 userReflect.ReflectProb = 1;
                 userReflect.Spread = 60;
-                ent.Comp.Used = true;
                 _popupSystem.PopupEntity(
                     Loc.GetString("carp-scroll-complete"),
                     ent,
                     args.User,
                     PopupType.LargeCaution);
-                return;
+                ent.Comp.CurrentUses++;
+                break;
         }
     }
 
-    private void CarpScrollDelay(Entity<GrantSleepingCarpComponent> ent, EntityUid user)
+    private void CarpScrollDelay(Entity<SleepingCarpStudentComponent> ent)
     {
         var time = _random.Next(ent.Comp.MinUseDelay, ent.Comp.MaxUseDelay);
         ent.Comp.UseAgainTime = _timing.CurTime + TimeSpan.FromSeconds(time);
