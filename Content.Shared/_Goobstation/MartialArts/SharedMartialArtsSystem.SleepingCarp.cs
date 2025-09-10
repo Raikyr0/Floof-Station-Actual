@@ -15,6 +15,8 @@ namespace Content.Shared._Goobstation.MartialArts;
 
 public partial class SharedMartialArtsSystem
 {
+    [Dependency] private readonly NpcFactionSystem _faction = default!;
+    
     private void InitializeSleepingCarp()
     {
         SubscribeLocalEvent<CanPerformComboComponent, SleepingCarpGnashingTeethPerformedEvent>(OnSleepingCarpGnashing);
