@@ -41,8 +41,8 @@ public sealed partial class GrantSleepingCarpComponent : GrantMartialArtKnowledg
     public TimeSpan UseAgainTime = TimeSpan.Zero;
 
     [DataField]
-    public int MaxUseDelay = 90;
+    public int MaxUseDelay = 30;
 
     [DataField]
-    public int MinUseDelay = 30;
+    public int MinUseDelay = 10;
 }
