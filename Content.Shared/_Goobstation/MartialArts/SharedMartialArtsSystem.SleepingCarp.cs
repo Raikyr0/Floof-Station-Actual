@@ -10,6 +10,8 @@ using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Popups;
 using Content.Shared.Weapons.Reflect;
 using Robust.Shared.Audio;
+using Content.Shared.NPC.Components;
+using Content.Shared.NPC.Systems;
 
 namespace Content.Shared._Goobstation.MartialArts;
 
