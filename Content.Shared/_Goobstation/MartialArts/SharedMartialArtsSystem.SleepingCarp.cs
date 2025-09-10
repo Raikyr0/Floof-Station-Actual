@@ -10,8 +10,6 @@ using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Popups;
 using Content.Shared.Weapons.Reflect;
 using Robust.Shared.Audio;
-using Content.Shared.NPC.Components;
-using Content.Shared.NPC.Systems;
 
 namespace Content.Shared._Goobstation.MartialArts;
 
@@ -40,16 +38,14 @@ public partial class SharedMartialArtsSystem
             args.User);
             return;
         }
-            
-        var studentComp = EnsureComp<SleepingCarpStudentComponent>(args.User);
 
-        if (studentComp.UseAgainTime == TimeSpan.Zero)
+        if (ent.Comp.UseAgainTime == TimeSpan.Zero)
         {
-            CarpScrollDelay((ent, studentComp));
+            CarpScrollDelay(ent, args.User);
             return;
         }
 
-        if (_timing.CurTime < studentComp.UseAgainTime)
+        if (_timing.CurTime < ent.Comp.UseAgainTime)
         {
             _popupSystem.PopupEntity(
                 Loc.GetString("carp-scroll-waiting"),
@@ -59,10 +55,10 @@ public partial class SharedMartialArtsSystem
             return;
         }
 
-        switch (studentComp.Stage)
+        switch (ent.Comp.Stage)
         {
             case < 3:
-                CarpScrollDelay((ent, studentComp));
+                CarpScrollDelay(ent, args.User);
                 break;
             case >= 3:
                 if (!TryGrant(ent.Comp, args.User))
@@ -81,7 +77,7 @@ public partial class SharedMartialArtsSystem
         }
     }
 
-    private void CarpScrollDelay(Entity<SleepingCarpStudentComponent> ent, EntityUid user)
+    private void CarpScrollDelay(Entity<GrantSleepingCarpComponent> ent, EntityUid user)
     {
         var time = _random.Next(ent.Comp.MinUseDelay, ent.Comp.MaxUseDelay);
         ent.Comp.UseAgainTime = _timing.CurTime + TimeSpan.FromSeconds(time);
