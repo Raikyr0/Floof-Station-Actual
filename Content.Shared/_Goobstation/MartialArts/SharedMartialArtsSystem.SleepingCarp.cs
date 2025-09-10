@@ -63,7 +63,7 @@ public partial class SharedMartialArtsSystem
                 CarpScrollDelay((args.User, studentComp));
                 break;
             case >= 3:
-                if (!TryGrantMartialArt(args.User, ent.Comp))
+                if (!TryGrant(ent.Comp, args.User))
                     return;
                 _faction.AddFaction(args.User, "Dragon");
                 var userReflect = EnsureComp<ReflectComponent>(args.User);
