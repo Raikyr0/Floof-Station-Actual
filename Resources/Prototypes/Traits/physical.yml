@@ -808,10 +808,12 @@
   category: Physical
   points: -3
   requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-        - Command
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+        - Gladiator # Floof
+        - Anomaly
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterDepartmentRequirement
@@ -819,9 +821,9 @@
             - Security
             - Dignitary
             - Command
-        #- !type:CharacterTraitRequirement
-        #  traits:
-        #    - RestrictedGear
+        - !type:CharacterTraitRequirement
+          traits:
+            - RestrictedGear
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterTraitRequirement
