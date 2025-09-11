@@ -963,9 +963,14 @@
         - Felinid
         - Rodentia
         - Tajaran
-    - !type:CharacterTraitRequirement
-      traits:
-        - CyberEyes
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterTraitRequirement
+          traits:
+            - CyberEyes
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
     - !type:CharacterTraitRequirement # Floof added Photophobia as drawback to nightvision
       inverted: true
       traits:
@@ -989,9 +994,14 @@
 #        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
 #        - Gladiator # Floof
 #        - Anomaly
-#    - !type:CharacterTraitRequirement
-#      traits:
-#        - CyberEyes
+#    - !type:CharacterLogicOrRequirement
+#      requirements:
+#        - !type:CharacterTraitRequirement
+#          traits:
+#            - CyberEyes
+#        - !type:CharacterSpeciesRequirement
+#          species:
+#            - IPC
 #  functions:
 #    - !type:TraitAddComponent
 #      components:
