@@ -9,3 +9,14 @@
     - !type:DepartmentCountCondition
       department: Security
       range: {min: 2}
+
+- type: entity
+  id: BaseGameRuleSecurityRequirementHigh
+  parent: BaseGameRule
+  abstract: true
+  components:
+  - type: StationEvent
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 4}
