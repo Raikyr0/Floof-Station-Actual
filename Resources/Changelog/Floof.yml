@@ -7796,3 +7796,10 @@ Entries:
   id: 826
   time: '2025-09-09T06:05:51.0000000+00:00'
   url: https://github.com/Floof-Station/Floof-Station/pull/1405
+- author: M3739
+  changes:
+    - type: Remove
+      message: Removed Talos from map rotation.
+  id: 827
+  time: '2025-09-10T18:19:47.0000000+00:00'
+  url: https://github.com/Floof-Station/Floof-Station/pull/1408
