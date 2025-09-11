@@ -115,7 +115,7 @@
     prototype: MobSkeletonCloset
 
 - type: entity
-  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  parent: BaseGameRuleSecurityRequirementHigh # Floof - changed parent
   id: DragonSpawn
   categories: [ HideSpawnMenu ]
   components:
@@ -129,7 +129,7 @@
     prototype: SpawnPointGhostDragon
 
 - type: entity
-  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  parent: BaseGameRuleSecurityRequirementHigh # Floof - changed parent
   id: NinjaSpawn
   categories: [ HideSpawnMenu ]
   components:
@@ -178,7 +178,7 @@
         prototype: SpaceNinja
 
 - type: entity
-  parent: BaseGameRule
+  parent: BaseGameRuleSecurityRequirement
   id: RevenantSpawn
   categories: [ HideSpawnMenu ]
   components:
@@ -380,7 +380,7 @@
     - Security
     - Service
     - Supply
-    extraCount: 2
+    extraCount: 5
     lightBreakChancePerSecond: 0.0003
     doorToggleChancePerSecond: 0.001
 
@@ -400,7 +400,7 @@
 
 - type: entity
   id: SlimesSpawn
-  parent:  [VentCrittersBase, BaseGameRule] # Floof - reparented
+  parent:  [VentCrittersBase, BaseGameRuleSecurityRequirement] # Floof - reparented
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
@@ -421,7 +421,7 @@
 
 - type: entity
   id: SpiderSpawn
-  parent: [VentCrittersBase, BaseGameRule] # Floof - reparented
+  parent: [VentCrittersBase, BaseGameRuleSecurityRequirement] # Floof - reparented
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
@@ -438,7 +438,7 @@
 
 - type: entity
   id: SpiderClownSpawn
-  parent: [VentCrittersBase, BaseGameRule] # Floof - reparented
+  parent: [VentCrittersBase, BaseGameRuleSecurityRequirement] # Floof - reparented
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
@@ -494,7 +494,7 @@
 
 - type: entity
   id: LoneOpsSpawn
-  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  parent: BaseGameRuleSecurityRequirementHigh # Floof - changed parent
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
@@ -596,13 +596,13 @@
 
 - type: entity
   id: MimicVendorRule
-  parent: BaseGameRule
+  parent: BaseGameRuleSecurityRequirement
   categories: [ HideSpawnMenu ]
   components:
     - type: StationEvent
       earliestStart: 20 # Floof
       minimumPlayers: 20
-      maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
+      maxOccurrences: 2 # this event has diminishing returns on interesting-ness, so we cap it
       weight: 5
     - type: MobReplacementRule
 
