@@ -644,7 +644,7 @@
 - type: trait
   id: CyberEyes
   category: Physical
-  points: -4
+  points: -2
   slots: 0
   requirements:
     - !type:CharacterJobRequirement
@@ -653,6 +653,10 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -692,7 +696,7 @@
 - type: trait
   id: CyberEyesSecurity
   category: Physical
-  points: -1
+  points: -2
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -700,12 +704,24 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-    - !type:CharacterTraitRequirement
-      traits:
-        - CyberEyes
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterDepartmentRequirement
+          departments:
+            - Security
+            - Dignitary
+            - Command
+        #- !type:CharacterTraitRequirement
+        #  traits:
+        #    - RestrictedGear
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterTraitRequirement
+          traits:
+            - CyberEyes
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -716,6 +732,8 @@
         - type: ShowJobIcons
         - type: ShowMindShieldIcons
         - type: ShowCriminalRecordIcons
+        - type: FlashImmunity
+        - type: EyeProtection
 
 - type: trait
   id: CyberEyesMedical
@@ -728,17 +746,22 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
-    - !type:CharacterTraitRequirement
-      traits:
-        - CyberEyes
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterTraitRequirement
+          traits:
+            - CyberEyes
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - CyberEyesDiagnostic
         - CyberEyesOmni
   functions:
     - !type:TraitAddComponent
       components:
+        - type: SolutionScanner
         - type: ShowHealthBars
           damageContainers:
           - Biological
@@ -751,7 +774,7 @@
 - type: trait
   id: CyberEyesDiagnostic
   category: Physical
-  points: -1
+  points: -2
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -759,17 +782,22 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
-    - !type:CharacterTraitRequirement
-      traits:
-        - CyberEyes
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterTraitRequirement
+          traits:
+            - CyberEyes
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - CyberEyesMedical
         - CyberEyesOmni
   functions:
     - !type:TraitAddComponent
       components:
+        - type: EyeProtection
         - type: ShowHealthBars
           damageContainers:
           - Inorganic
@@ -784,9 +812,24 @@
       departments:
         - Security
         - Command
-    - !type:CharacterTraitRequirement
-      traits:
-        - CyberEyes
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterDepartmentRequirement
+          departments:
+            - Security
+            - Dignitary
+            - Command
+        #- !type:CharacterTraitRequirement
+        #  traits:
+        #    - RestrictedGear
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterTraitRequirement
+          traits:
+            - CyberEyes
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -796,17 +839,20 @@
   functions:
     - !type:TraitAddComponent
       components:
+        - type: SolutionScanner
+        - type: EyeProtection
+        - type: FlashImmunity
         - type: ShowJobIcons
         - type: ShowMindShieldIcons
         - type: ShowCriminalRecordIcons
         - type: ShowHealthIcons
           damageContainers:
           - Biological
-          - BiologicalMetaphysical # Floof - M3739 - #1006
+          - BiologicalMetaphysical
         - type: ShowHealthBars
           damageContainers:
           - Biological
-          - BiologicalMetaphysical # Floof - M3739 - #1006
+          - BiologicalMetaphysical
           - Inorganic
           - Silicon
 
@@ -876,6 +922,10 @@
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator # Floof
         - Anomaly
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Arachne
   functions:
     - !type:TraitPushDescription
       descriptionExtensions:
@@ -988,3 +1038,15 @@
         - description: examine-bionic-arm-message
           fontSize: 12
           requireDetailRange: true
+
+#- type: trait
+#  id: RestrictedGear
+#  category: Physical
+#  points: -5
+#  requirements:
+#  - !type:CharacterJobRequirement
+#    inverted: true
+#    jobs:
+#      - Prisoner # Smuggling for prisoners = immediate jailbreak.
+#      - Gladiator # Floof
+#      - Anomaly
