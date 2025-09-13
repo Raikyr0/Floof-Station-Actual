@@ -324,7 +324,7 @@
   id: AnimalFriend
   category: Mental
   points: -4  
-  requirements:
+  requirements: # Floof
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
