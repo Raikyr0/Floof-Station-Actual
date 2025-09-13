@@ -191,7 +191,7 @@
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
-- type: entity
+- type: entity # Floof - Zookeeper
   name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledEmpty
@@ -261,7 +261,7 @@
     - WeaponShotgunKammerer
   - type: Wieldable
 
-- type: entity # Floof
+- type: entity # Floof - Zookeeper
   parent: WeaponShotgunKammerer
   id: WeaponShotgunKammererEmpty
   suffix: Empty
@@ -375,7 +375,7 @@
     price: 0
   - type: Wieldable
 
-- type: entity # Floof
+- type: entity # Floof - Zookeeper
   parent: WeaponShotgunBlunderbuss
   id: WeaponShotgunBlunderbussEmpty
   suffix: Empty
