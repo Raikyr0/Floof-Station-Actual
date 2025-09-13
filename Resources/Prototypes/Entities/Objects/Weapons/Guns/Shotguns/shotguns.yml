@@ -200,6 +200,12 @@
   components:
   - type: BallisticAmmoProvider
     proto: null
+  - type: ExtendDescription
+    descriptionList:
+      - description: "gun-legality-zookeeper"
+        fontSize: 12
+        color: "#ff4f00"
+        requireDetailRange: false
 
 - type: entity
   name: Enforcer
@@ -262,6 +268,12 @@
   components:
   - type: BallisticAmmoProvider
     proto: null
+  - type: ExtendDescription
+    descriptionList:
+      - description: "gun-legality-zookeeper"
+        fontSize: 12
+        color: "#ff4f00"
+        requireDetailRange: false
 
 - type: entity
   name: sawn-off shotgun
@@ -370,6 +382,12 @@
   components:
   - type: BallisticAmmoProvider
     proto: null
+  - type: ExtendDescription
+    descriptionList:
+      - description: "gun-legality-zookeeper"
+        fontSize: 12
+        color: "#ff4f00"
+        requireDetailRange: false
 
 - type: entity
   name: improvised shotgun
