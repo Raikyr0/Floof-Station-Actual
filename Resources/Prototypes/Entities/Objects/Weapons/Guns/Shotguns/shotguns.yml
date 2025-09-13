@@ -191,22 +191,6 @@
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
-- type: entity # Floof - Zookeeper
-  name: double-barreled shotgun
-  parent: WeaponShotgunDoubleBarreled
-  id: WeaponShotgunDoubleBarreledEmpty
-  description: An immortal classic. Uses .50 shotgun shells.
-  suffix: Empty
-  components:
-  - type: BallisticAmmoProvider
-    proto: null
-  - type: ExtendDescription
-    descriptionList:
-      - description: "gun-legality-zookeeper"
-        fontSize: 12
-        color: "#ff4f00"
-        requireDetailRange: false
-
 - type: entity
   name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
@@ -260,20 +244,6 @@
     tags:
     - WeaponShotgunKammerer
   - type: Wieldable
-
-- type: entity # Floof - Zookeeper
-  parent: WeaponShotgunKammerer
-  id: WeaponShotgunKammererEmpty
-  suffix: Empty
-  components:
-  - type: BallisticAmmoProvider
-    proto: null
-  - type: ExtendDescription
-    descriptionList:
-      - description: "gun-legality-zookeeper"
-        fontSize: 12
-        color: "#ff4f00"
-        requireDetailRange: false
 
 - type: entity
   name: sawn-off shotgun
@@ -374,20 +344,6 @@
   - type: StaticPrice
     price: 0
   - type: Wieldable
-
-- type: entity # Floof - Zookeeper
-  parent: WeaponShotgunBlunderbuss
-  id: WeaponShotgunBlunderbussEmpty
-  suffix: Empty
-  components:
-  - type: BallisticAmmoProvider
-    proto: null
-  - type: ExtendDescription
-    descriptionList:
-      - description: "gun-legality-zookeeper"
-        fontSize: 12
-        color: "#ff4f00"
-        requireDetailRange: false
 
 - type: entity
   name: improvised shotgun
