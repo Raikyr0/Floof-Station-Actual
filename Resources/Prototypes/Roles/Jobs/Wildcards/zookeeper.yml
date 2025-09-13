@@ -10,7 +10,7 @@
   - Service
   - Maintenance
   - Zookeeper # DeltaV - Add Zookeeper access
-  special:
+  special: # Floof
   - !type:AddTraitSpecial
     traits:
     - AnimalFriend
