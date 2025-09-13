@@ -12,7 +12,7 @@
   - Zookeeper # DeltaV - Add Zookeeper access
   special:
   - !type:AddTraitSpecial
-    AddTrait:
+    traits:
     - AnimalFriend
 
 - type: startingGear
