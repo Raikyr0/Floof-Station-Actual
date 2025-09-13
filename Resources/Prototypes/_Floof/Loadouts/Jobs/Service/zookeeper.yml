@@ -67,7 +67,7 @@
     jobs:
     - Zookeeper
   items:
-  - MagazineShotgunTranquilizer
+  - BoxShellTranquilizer
 
 - type: loadout
   id: LoadoutServiceZookeeperShotgunBeanbag
@@ -92,7 +92,7 @@
     jobs:
     - Zookeeper
   items:
-  - MagazineShotgunBeanbag
+  - BoxBeanbag
 
 - type: loadout # Floof - Remember Harambe
   id: LoadoutServiceZookeeperShotgunSlug
