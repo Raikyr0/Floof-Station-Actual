@@ -825,6 +825,10 @@ character-item-group-LoadoutReporterOuter = Reporter Outerwear
 character-item-group-LoadoutReporterShoes = Reporter Shoes
 character-item-group-LoadoutReporterUniforms = Reporter Uniforms
 
+# Service - Zookeeper
+character-item-group-LoadoutZookeeperAmmo = Zookeeper Ammo
+character-item-group-LoadoutZookeeperWeapon = Zookeeper Weapon
+
 # Traits - Languages
 character-item-group-TraitsLanguagesBasic = Basic Languages
 character-item-group-TraitsAccents = Accents
