@@ -1,0 +1,13 @@
+- type: entity
+  id: MagazineShotgunTranquilizer
+  name: ammo drum (.50 tranquilizer)
+  parent: BaseMagazineShotgun
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellTranquilizer
+  - type: Sprite
+    layers:
+    - state: beanbag
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
