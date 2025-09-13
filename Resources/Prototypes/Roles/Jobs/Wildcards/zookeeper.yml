@@ -11,8 +11,8 @@
   - Maintenance
   - Zookeeper # DeltaV - Add Zookeeper access
   special:
-  - !type:ModifyFactions
-    addFactions:
+  - !type:AddTraitSpecial
+    AddTrait:
     - AnimalFriend
 
 - type: startingGear
