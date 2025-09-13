@@ -1,0 +1,109 @@
+# Zookeeper Shotguns
+
+- type: loadout
+  id: LoadoutServiceZookeeperDoubleBarreledEmpty
+  category: JobsServiceZookeeper
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperWeapon
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - WeaponShotgunDoubleBarreledEmpty
+
+- type: loadout
+  id: LoadoutServiceZookeeperKammererEmpty
+  category: JobsServiceZookeeper
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperWeapon
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - WeaponShotgunKammererEmpty
+
+- type: loadout
+  id: LoadoutServiceZookeeperBlunderbussEmpty
+  category: JobsServiceZookeeper
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperWeapon
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - WeaponShotgunBlunderbussEmpty
+
+# Zookeeper Ammo
+
+- type: loadout
+  id: LoadoutServiceZookeeperShotgunTranquilizer
+  category: JobsServiceZookeeper
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperAmmo
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - MagazineShotgunTranquilizer
+
+- type: loadout
+  id: LoadoutServiceZookeeperShotgunTranquilizerExtra
+  category: JobsServiceZookeeper
+  cost: 1
+  requirements:
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - MagazineShotgunTranquilizer
+
+- type: loadout
+  id: LoadoutServiceZookeeperShotgunBeanbag
+  category: JobsServiceZookeeper
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperAmmo
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - MagazineShotgunBeanbag
+
+- type: loadout
+  id: LoadoutServiceZookeeperShotgunBeanbagExtra
+  category: JobsServiceZookeeper
+  cost: 1
+  requirements:
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - MagazineShotgunBeanbag
+
+- type: loadout # Floof - Remember Harambe
+  id: LoadoutServiceZookeeperShotgunSlug
+  category: JobsServiceZookeeper
+  cost: 2
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutZookeeperAmmo
+  - !type:CharacterJobRequirement
+    jobs:
+    - Zookeeper
+  items:
+  - MagazineShotgunSlug
