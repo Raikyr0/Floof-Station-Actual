@@ -269,6 +269,7 @@
     - JobsServiceMime
     - JobsServiceMusician
     - JobsServiceReporter
+    - JobsServiceZookeeper # Floof
 
 - type: loadoutCategory
   id: JobsServiceAUncategorized
@@ -299,6 +300,9 @@
 
 - type: loadoutCategory
   id: JobsServiceReporter
+
+- type: loadoutCategory # Floof
+  id: JobsServiceZookeeper
 
 # Now Leaving: Jobs Category
 
