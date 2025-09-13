@@ -91,6 +91,7 @@ loadout-category-JobsServiceLawyer = Attorney
 loadout-category-JobsServiceMime = Mime
 loadout-category-JobsServiceMusician = Musician
 loadout-category-JobsServiceReporter = Reporter
+loadout-category-JobsServiceZookeeper = Zookeeper
 
 loadout-category-Mask = Mask
 loadout-category-Neck = Neck
