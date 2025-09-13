@@ -4,6 +4,7 @@
   id: LoadoutServiceZookeeperDoubleBarreledEmpty
   category: JobsServiceZookeeper
   cost: 0
+  canBeHeirloom: true
   exclusive: true
   requirements:
   - !type:CharacterItemGroupRequirement
@@ -18,6 +19,7 @@
   id: LoadoutServiceZookeeperKammererEmpty
   category: JobsServiceZookeeper
   cost: 0
+  canBeHeirloom: true
   exclusive: true
   requirements:
   - !type:CharacterItemGroupRequirement
@@ -32,6 +34,7 @@
   id: LoadoutServiceZookeeperBlunderbussEmpty
   category: JobsServiceZookeeper
   cost: 0
+  canBeHeirloom: true
   exclusive: true
   requirements:
   - !type:CharacterItemGroupRequirement
