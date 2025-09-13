@@ -850,11 +850,11 @@
         - type: ShowHealthIcons
           damageContainers:
           - Biological
-          - BiologicalMetaphysical
+          - BiologicalMetaphysical # Floof - M3739 - #1006
         - type: ShowHealthBars
           damageContainers:
           - Biological
-          - BiologicalMetaphysical
+          - BiologicalMetaphysical # Floof - M3739 - #1006
           - Inorganic
           - Silicon
 
