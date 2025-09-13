@@ -192,6 +192,16 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
+  name: double-barreled shotgun
+  parent: WeaponShotgunDoubleBarreled
+  id: WeaponShotgunDoubleBarreledEmpty
+  description: An immortal classic. Uses .50 shotgun shells.
+  suffix: Empty
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+
+- type: entity
   name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunEnforcer
@@ -245,6 +255,14 @@
     - WeaponShotgunKammerer
   - type: Wieldable
 
+- type: entity # Floof
+  parent: WeaponShotgunKammerer
+  id: WeaponShotgunKammererEmpty
+  suffix: Empty
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+
 - type: entity
   name: sawn-off shotgun
   parent: BaseWeaponShotgun
@@ -276,7 +294,7 @@
     staminaCost: 6
 
 - type: entity
-  name: sawn-off shogun
+  name: sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
   description: Groovy! Uses .50 shotgun shells.
@@ -344,6 +362,14 @@
   - type: StaticPrice
     price: 0
   - type: Wieldable
+
+- type: entity # Floof
+  parent: WeaponShotgunBlunderbuss
+  id: WeaponShotgunBlunderbussEmpty
+  suffix: Empty
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
 
 - type: entity
   name: improvised shotgun
