@@ -180,7 +180,7 @@
       minimumPlayers: 50
     - type: CargoGiftsRule
       description: cargo-gift-security-guns
-      sender: cargo-gift-default-sender
+      sender: cargo-gift-cybersun-sender
       dest: cargo-gift-dest-sec
       gifts:
         SecurityArmor: 3
@@ -201,7 +201,7 @@
       minimumPlayers: 50
     - type: CargoGiftsRule
       description: cargo-gift-security-riot
-      sender: cargo-gift-default-sender
+      sender: cargo-gift-cybersun-sender
       dest: cargo-gift-dest-sec
       gifts:
         SecurityRiot: 2
