@@ -37,6 +37,26 @@
       CrateVendingMachineRestockRobustSoftdrinks: 1
 
 - type: entity
+  id: GiftsPizzaPartySmallCS
+  parent: GiftsPizzaPartySmall
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    weight: 5
+    startDelay: 10
+    duration: 120
+    earliestStart: 20
+  - type: CargoGiftsRule
+    description: cargo-gift-pizza-small
+    sender: cargo-gift-cybersun-sender
+    dest: cargo-gift-dest-bar
+    gifts:
+      FoodPizzaLarge: 1              # 16 pizzas
+      FoodBarSupply: 1
+      FoodSoftdrinks: 1
+      CrateVendingMachineRestockRobustSoftdrinks: 1
+
+- type: entity
   id: GiftsPizzaPartyLargeCS
   parent: GiftsPizzaPartyLarge
   categories: [ HideSpawnMenu ]
