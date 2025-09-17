@@ -3,6 +3,7 @@ cargo-gift-default-description = A bundle of gifts
 cargo-gift-default-sender = Floof LLC.
 cargo-gift-nanotrasen-sender = Nanotrasen
 cargo-gift-cybersun-sender = Cybersun
+cargo-gift-donkco-sender = Donk Co.
 cargo-gift-default-dest = Logistics Dept.
 
 cargo-gift-dest-bar = bar
@@ -14,6 +15,9 @@ cargo-gift-dest-sec = Security Dept
 
 cargo-gift-pizza-small = a small pizza party
 cargo-gift-pizza-large = a large pizza party
+
+cargo-gift-donkpocket-savory = a savory Donk pocket sample
+cargo-gift-donkpocket-sweet = a sweet Donk pocket sample
 
 cargo-gift-eng = repair Materials
 cargo-gift-vending = vending machine refills
