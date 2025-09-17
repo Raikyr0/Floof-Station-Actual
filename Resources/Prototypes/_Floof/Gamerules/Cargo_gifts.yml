@@ -74,3 +74,37 @@
         FoodPizzaLarge: 4              # 64 pizzas
         FoodBarSupply: 1
         FoodSoftdrinksLarge: 1
+
+- type: entity
+  id: GiftsDonkPocketSavory
+  parent: GiftsPizzaPartySmall
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    weight: 5
+    startDelay: 10
+    duration: 120
+    earliestStart: 20
+  - type: CargoGiftsRule
+    description: cargo-gift-donkpocket-savory
+    sender: cargo-gift-donkco-sender
+    dest: cargo-gift-dest-bar
+    gifts:
+      FoodDonkpocketSavory: 3
+
+- type: entity
+  id: GiftsDonkPocketSweet
+  parent: GiftsPizzaPartySmall
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    weight: 5
+    startDelay: 10
+    duration: 120
+    earliestStart: 20
+  - type: CargoGiftsRule
+    description: cargo-gift-donkpocket-sweet
+    sender: cargo-gift-donkco-sender
+    dest: cargo-gift-dest-bar
+    gifts:
+      FoodDonkpocketSweet: 3
