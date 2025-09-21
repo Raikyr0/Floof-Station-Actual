@@ -31,8 +31,8 @@ public abstract partial class SharedEgglayingSystem : EntitySystem
 
         SubscribeLocalEvent<EgglayingComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<EgglayingComponent, ComponentShutdown>(OnCompRemove);
-        SubscribeLocalEvent<EgglayingComponent, EgglayingActionEvent>(OnSericultureStart);
-        SubscribeLocalEvent<EgglayingComponent, EgglayingDoAfterEvent>(OnSericultureDoAfter);
+        SubscribeLocalEvent<EgglayingComponent, EgglayingActionEvent>(OnEgglayingStart);
+        SubscribeLocalEvent<EgglayingComponent, EgglayingDoAfterEvent>(OnEgglayingDoAfter);
     }
 
     /// <summary>
