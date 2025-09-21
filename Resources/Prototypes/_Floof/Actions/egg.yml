@@ -6,5 +6,5 @@
   components:
   - type: InstantAction
     icon: _Floof/Interface/Actions/egg.png
-    event: !type:SericultureActionEvent
+    event: !type:EgglayingActionEvent
     useDelay: 5
