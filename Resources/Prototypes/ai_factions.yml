@@ -1,7 +1,5 @@
 - type: npcFaction
   id: Dragon
-  friendly:
-    - AnimalFriend # Floof - Get some Carp in your Zoo
   hostile:
     - NanoTrasen
     - Syndicate
