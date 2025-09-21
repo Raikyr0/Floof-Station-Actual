@@ -85,7 +85,7 @@
   functions:
     - !type:TraitAddComponent
       components:
-        - type: Sericulture
+        - type: Egglaying
           action: ActionLayEgg
           productionLength: 3
           entityProduced: FoodEgg
