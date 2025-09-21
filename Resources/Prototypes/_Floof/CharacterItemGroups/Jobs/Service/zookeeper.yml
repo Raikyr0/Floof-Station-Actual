@@ -1,0 +1,20 @@
+# Floof
+- type: characterItemGroup
+  id: LoadoutZookeeperAmmo
+  items:
+    - type: loadout
+      id: LoadoutServiceZookeeperShotgunTranquilizer
+    - type: loadout
+      id: LoadoutServiceZookeeperShotgunBeanbag
+    - type: loadout
+      id: LoadoutServiceZookeeperShotgunSlug
+
+- type: characterItemGroup
+  id: LoadoutZookeeperWeapon
+  items:
+    - type: loadout
+      id: LoadoutServiceZookeeperDoubleBarreledEmpty
+    - type: loadout
+      id: LoadoutServiceZookeeperKammererEmpty
+    - type: loadout
+      id: LoadoutServiceZookeeperBlunderbussEmpty
