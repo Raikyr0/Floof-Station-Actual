@@ -131,7 +131,7 @@
   id: MobAdultSlimes
   parent: BaseMobAdultSlimes
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: It looks so much like jelly. I wonder what it tastes like? This one looks friendly.
   components:
   - type: LanguageKnowledge
     speaks:
@@ -143,7 +143,7 @@
     makeSentient: true
     name: ghost-role-information-slimes-name
     description: ghost-role-information-slimes-description
-    rules: floof-ghost-role-information-solo-antag-rules
+    rules: floof-ghost-role-information-free-agent-rules
   - type: Speech
     speechVerb: Slime
     speechSounds: Slime
@@ -209,11 +209,17 @@
   name: blue slime
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
+  description: It looks so much like jelly. I wonder what it tastes like? This one looks hostile.
   suffix: Angry
   components:
     - type: NpcFactionMember
       factions:
         - SimpleHostile
+    - type: GhostRole
+      makeSentient: true
+      name: ghost-role-information-slimes-name
+      description: ghost-role-information-angry-slimes-description
+      rules: floof-ghost-role-information-solo-antag-rules
 
 - type: entity
   name: green slime
@@ -242,13 +248,17 @@
   name: green slime
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
+  description: It looks so much like jelly. I wonder what it tastes like? This one looks hostile.
   suffix: Angry
   components:
     - type: NpcFactionMember
       factions:
         - SimpleHostile
-#    - type: GhostRole #DeltaV - all slimes neutral when ghost role
-#      description: ghost-role-information-angry-slimes-description
+    - type: GhostRole
+      makeSentient: true
+      name: ghost-role-information-slimes-name
+      description: ghost-role-information-angry-slimes-description
+      rules: floof-ghost-role-information-solo-antag-rules
 
 - type: entity
   name: yellow slime
@@ -277,10 +287,14 @@
   name: yellow slime
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
+  description: It looks so much like jelly. I wonder what it tastes like? This one looks hostile.
   suffix: Angry
   components:
     - type: NpcFactionMember
       factions:
         - SimpleHostile
-#    - type: GhostRole #DeltaV - all slimes neutral when ghost role
-#      description: ghost-role-information-angry-slimes-description
+    - type: GhostRole
+      makeSentient: true
+      name: ghost-role-information-slimes-name
+      description: ghost-role-information-angry-slimes-description
+      rules: floof-ghost-role-information-solo-antag-rules
