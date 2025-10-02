@@ -92,5 +92,5 @@ trait-name-OniShooting = Can't Aim
 trait-description-OniShooting = Due to an innate skill issue, you can't aim at all.
 
 trait-name-BadShooting = Bad Aim
-trait-description-BadShooting = Due to an lack of training or simply a lack of skill, you can't aim very well.
+trait-description-BadShooting = Due to a lack of training or simply a lack of skill or talent, you can't aim very well.
 
