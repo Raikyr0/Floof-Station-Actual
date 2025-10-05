@@ -227,10 +227,10 @@
   description: |-
    Once a weapon used in war, now a civilian hunting rifle brought to you by SESWC., "Retreating is Considered Treason" is etched on one side.
   components:
-  - type: Item
+  - type: Item # Floof - Gun Shape Refactor
     size: Large
     storedRotation: 45
-    shape: # Floof - Changes the Rifle to be a 5x2
+    shape:
     - 0,0,4,1
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/svt40.rsi
