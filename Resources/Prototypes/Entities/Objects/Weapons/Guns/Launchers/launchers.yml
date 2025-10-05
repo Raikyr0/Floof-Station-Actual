@@ -42,7 +42,7 @@
   description: PLOOP
   components:
   - type: Item
-    size: Large
+    size: Large # Floof - Gun Shape Refactor
     shape:
     - 0,0,3,1
   - type: Sprite
