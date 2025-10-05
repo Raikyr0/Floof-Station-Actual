@@ -67,6 +67,11 @@
   id: WeaponSniperMosin
   description: A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
   components:
+  - type: Item
+    size: Large
+    storedRotation: 45
+    shape:
+    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     state: base
@@ -177,6 +182,11 @@
   id: Musket
   description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
   components:
+  - type: Item
+    size: Large
+    storedRotation: 45
+    shape:
+    - 0,0,4,1
   - type: Sharp
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
