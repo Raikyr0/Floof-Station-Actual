@@ -6,9 +6,9 @@
   abstract: true
   components:
   - type: Sprite
-  - type: Item
+  - type: Item # Floof - Gun Shape Refactor
     size: Large
-    shape: # Floof - Gun Shape Refactor
+    shape:
     - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
