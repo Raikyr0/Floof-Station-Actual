@@ -11,6 +11,8 @@
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
     size: Huge
+    shape:
+    - 0,0,5,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     quickEquip: false
@@ -65,6 +67,10 @@
   id: WeaponSniperMosin
   description: A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
   components:
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     state: base
@@ -174,6 +180,8 @@
   - type: Sharp
   - type: Item
     size: Large
+    shape:
+    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
     state: base
@@ -231,6 +239,9 @@
   - type: Item
     size: Small
     storedRotation: 90
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/flintlock.rsi
   - type: Clothing
