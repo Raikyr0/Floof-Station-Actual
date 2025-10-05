@@ -4,8 +4,8 @@
   abstract: true
   components:
   - type: Sprite
-  - type: Item
-    size: Large # Floof - Gun Shape Refactor
+  - type: Item # Floof - Gun Shape Refactor
+    size: Large
     shape:
     - 0,0,4,1
   - type: Clothing
@@ -577,8 +577,8 @@
   id: WeaponDisablerSMG
   description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
   components:
-  - type: Item
-    size: Large # Floof - Gun Shape Refactor
+  - type: Item # Floof - Gun Shape Refactor
+    size: Large
     shape: 
     - 0,0,3,1
   - type: Tag
@@ -902,8 +902,8 @@
       fireCost: 200
     - proto: BulletDisablerSmgSpread
       fireCost: 120
-  - type: Item
-    size: Large # Floof - Gun Shape Refactor
+  - type: Item # Floof - Gun Shape Refactor
+    size: Large
     shape:
     - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
@@ -954,8 +954,8 @@
       fireCost: 200
     - proto: BulletDisablerSmgSpread
       fireCost: 120
-  - type: Item
-    size: Large # Floof - Gun Shape Refactor
+  - type: Item # Floof - Gun Shape Refactor
+    size: Large
     shape:
     - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
