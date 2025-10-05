@@ -5,8 +5,8 @@
   components:
   - type: Sprite
   - type: Item
-    size: Large
-    shape: # Floof - Changes the Rifle to be a 5x2
+    size: Large # Floof - Gun Shape Refactor
+    shape:
     - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -151,7 +151,7 @@
   parent: BaseWeaponPowerCell
   abstract: true
   components:
-  - type: Item # Floof - Gives it the Revolver L shape
+  - type: Item # Floof - Gun Shape Refactor
     size: Small
     shape:
     - 0,0,1,0
@@ -578,8 +578,8 @@
   description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Item
-    size: Large
-    shape: # Floof - Changes the Rifle to be a 5x2
+    size: Large # Floof - Gun Shape Refactor
+    shape: 
     - 0,0,3,1
   - type: Tag
     tags:
@@ -903,7 +903,7 @@
     - proto: BulletDisablerSmgSpread
       fireCost: 120
   - type: Item
-    size: Large
+    size: Large # Floof - Gun Shape Refactor
     shape:
     - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
@@ -955,7 +955,7 @@
     - proto: BulletDisablerSmgSpread
       fireCost: 120
   - type: Item
-    size: Large
+    size: Large # Floof - Gun Shape Refactor
     shape:
     - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
