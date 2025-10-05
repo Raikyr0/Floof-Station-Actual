@@ -5,7 +5,9 @@
   components:
   - type: Sprite
   - type: Item
-    size: Huge
+    size: Large
+    shape: # Floof - Changes the Rifle to be a 5x2
+    - 0,0,5,2
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
@@ -149,8 +151,11 @@
   parent: BaseWeaponPowerCell
   abstract: true
   components:
-  - type: Item
+  - type: Item # Floof - Gives it the Revolver L shape
     size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
   - type: Tag
     tags:
     - Sidearm
