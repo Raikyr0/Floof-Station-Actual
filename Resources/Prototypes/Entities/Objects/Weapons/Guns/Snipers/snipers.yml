@@ -12,7 +12,7 @@
   - type: Item # Floof - Gun Shape Refactor
     size: Large
     shape:
-    - 0,0,4,1
+    - 0,0,5,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     quickEquip: false
@@ -71,7 +71,7 @@
     size: Large
     storedRotation: 45
     shape:
-    - 0,0,4,1
+    - 0,0,5,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     state: base
@@ -163,7 +163,7 @@
     size: Huge
     storedRotation: 45
     shape:
-    - 0,0,5,1
+    - 0,0,7,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Clothing
@@ -186,7 +186,7 @@
     size: Large
     storedRotation: 45
     shape:
-    - 0,0,4,1
+    - 0,0,5,1
   - type: Sharp
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
