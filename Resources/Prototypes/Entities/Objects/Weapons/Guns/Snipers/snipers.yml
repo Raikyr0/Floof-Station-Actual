@@ -10,9 +10,9 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
-    size: Huge
+    size: Large
     shape:
-    - 0,0,5,1
+    - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     quickEquip: false
@@ -67,10 +67,6 @@
   id: WeaponSniperMosin
   description: A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
   components:
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
     state: base
@@ -136,7 +132,6 @@
       tags:
       - CartridgeLightRifle
 
-
 - type: entity
   name: Kardashev-Mosin
   parent: WeaponSniperMosin
@@ -159,6 +154,11 @@
   id: WeaponSniperHristov
   description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
   components:
+  - type: Item
+    size: Huge
+    storedRotation: 45
+    shape:
+    - 0,0,5,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Clothing
@@ -178,10 +178,6 @@
   description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
   components:
   - type: Sharp
-  - type: Item
-    size: Large
-    shape:
-    - 0,0,4,1
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
     state: base
