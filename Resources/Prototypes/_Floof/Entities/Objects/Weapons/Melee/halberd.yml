@@ -6,7 +6,6 @@
   components:
   - type: Item
     size: Huge
-    size: Large
     shape: # Floof - Changes the Halbard to Fit in Bags... barely
     - 0,0,7,1
   - type: MeleeRequiresWield
