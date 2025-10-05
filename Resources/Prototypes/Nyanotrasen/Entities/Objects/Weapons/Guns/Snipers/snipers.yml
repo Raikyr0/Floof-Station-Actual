@@ -5,7 +5,7 @@
   description: A heavy and reliable self-loading rifle, utilising a modified version of a centuries-old design. Uses .30 rifle ammo.
   components:
   - type: Item # Floof - Gun Shape Refactor
-    size: Huge
+    size: Large
     storedRotation: 45
     shape:
     - 0,0,5,1
@@ -51,7 +51,7 @@
   description: A ceremonial variant of the Mark 1 Rifle, in tasteful blue and white. Uses .30 rifle ammo.
   components:
   - type: Item # Floof - Gun Shape Refactor
-    size: Huge
+    size: Large
     storedRotation: 45
     shape:
     - 0,0,5,1
