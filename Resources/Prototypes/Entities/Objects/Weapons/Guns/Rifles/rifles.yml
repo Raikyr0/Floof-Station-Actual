@@ -7,7 +7,9 @@
   components:
   - type: Sprite
   - type: Item
-    size: Huge
+    size: Large
+    shape: # Floof - Changes the Rifle to be a 5x2
+    - 0,0,5,2
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
     quickEquip: false
