@@ -7,7 +7,7 @@
   - type: Item
     size: Large
     shape: # Floof - Changes the Rifle to be a 5x2
-    - 0,0,5,2
+    - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
