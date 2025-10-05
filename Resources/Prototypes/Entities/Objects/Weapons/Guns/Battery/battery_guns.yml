@@ -905,7 +905,7 @@
   - type: Item
     size: Large
     shape:
-    - 0,0,3,1
+    - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
   - type: Tag
@@ -957,7 +957,7 @@
   - type: Item
     size: Large
     shape:
-    - 0,0,3,1
+    - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
   - type: Tag
