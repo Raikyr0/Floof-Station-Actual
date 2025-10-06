@@ -1047,7 +1047,7 @@
     group: LoadoutSecurityWeapons
   - !type:CharacterDepartmentTimeRequirement
     department: Security
-    min: 259200 # 3 days
+    min: 1209600 # 14 days
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
