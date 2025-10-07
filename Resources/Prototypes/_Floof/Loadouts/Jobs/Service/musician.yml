@@ -90,7 +90,7 @@
     - DrumKitFlatpack
 
 - type: loadout
-  id: LoadoutItemDrumKitInstrumentMusician
+  id: LoadoutItemDawInstrumentMusician
   category: JobsServiceMusician
   cost: 4
   requirements:
