@@ -32,6 +32,8 @@
       id: LoadoutItemSeashellInstrumentMusician
     - type: loadout
       id: LoadoutItemBirdToyInstrumentMusician
+    - type: loadout
+      id: LoadoutItemDawInstrumentMusician
   # Percussion
     - type: loadout
       id: LoadoutItemGlockenspielInstrumentMusician
