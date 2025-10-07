@@ -31,6 +31,55 @@
         - Janitor
 
 - type: loadout
+  id: LoadoutJanitorEquipmentAdvMopItem
+  category: JobsServiceJanitor
+  cost: 2
+  items:
+    - AdvMopItem
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobJanitor
+      min: 180000 # 50 hours
+
+- type: loadout
+  id: LoadoutJanitorEquipmentMegaSprayBottle
+  category: JobsServiceJanitor
+  cost: 1
+  items:
+    - MegaSprayBottle
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobJanitor
+      min: 180000 # 50 hours
+
+- type: loadout
+  id: LoadoutJanitorWeaponLauncherCleanade
+  category: JobsServiceJanitor
+  cost: 3
+  items:
+    - WeaponLauncherCleanade
+    - BoxCleanerGrenades
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobJanitor
+      min: 360000  # 100 hours
+
+- type: loadout
   id: LoadoutJanitorEquipmentBoxMousetrap
   category: JobsServiceJanitor
   cost: 0
