@@ -28,6 +28,15 @@
       entity: DrumkitInstrument
 
 - type: entity
+  parent: InstrumentFlatpack
+  id: DawFlatpack
+  name: digital audio workstation flatpack
+  description: A flatpack used for constructing a digital audio workstation.
+  components:
+    - type: Flatpack
+      entity: DawInstrument
+
+- type: entity
   parent: BaseFlatpack
   id: TinyFanFlatpack
   name: tiny fan flatpack
