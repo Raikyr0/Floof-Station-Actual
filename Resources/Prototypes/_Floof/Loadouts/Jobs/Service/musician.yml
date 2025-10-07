@@ -65,11 +65,21 @@
 
 # Instrument Flatpacks
 
+- type: loadout # Multitool to open your flatpacks
+  id: LoadoutMusicianFlatpackOpener
+  category: JobsServiceMusician
+  cost: 0
+  requirements:
+  - !type:CharacterJobRequirement
+    jobs:
+    - Musician
+  items:
+    - Multitool
+
 - type: loadout
   id: LoadoutItemDrumKitInstrumentMusician
   category: JobsServiceMusician
   cost: 2 # Is essentially multiple percussion instruments in one.
-  canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutMusicianEquipment
@@ -78,3 +88,19 @@
         - Musician
   items:
     - DrumKitFlatpack
+
+- type: loadout
+  id: LoadoutItemDrumKitInstrumentMusician
+  category: JobsServiceMusician
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMusicianEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - Musician
+    - !type:CharacterPlaytimeRequirement
+     tracker: JobMusician
+     min: 360000 # 100 hours
+  items:
+    - DawFlatpack
