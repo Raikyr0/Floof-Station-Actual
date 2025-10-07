@@ -35,6 +35,12 @@
       id: LoadoutJanitorEquipmentHoloprojector
     - type: loadout
       id: LoadoutJanitorEquipmentPlunger
+    - type: loadout
+      id: LoadoutJanitorEquipmentAdvMopItem
+    - type: loadout
+      id: LoadoutJanitorEquipmentMegaSprayBottle
+    - type: loadout
+      id: LoadoutJanitorWeaponLauncherCleanade
 # Floof section end
 
 #- type: characterItemGroup
