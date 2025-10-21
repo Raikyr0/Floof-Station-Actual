@@ -369,6 +369,7 @@
   color: "#000000"
   boilingPoint: 255.0
   meltingPoint: 36.0
+  pricePerUnit: 1000 # Floof - Syndie Only, Poisons have a market
   metabolisms:
     Narcotic:
       effects:
