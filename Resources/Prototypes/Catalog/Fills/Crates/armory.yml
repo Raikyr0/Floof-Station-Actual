@@ -12,7 +12,7 @@
         amount: 2
 
 - type: entity
-  id: CrateArmoryShotgunEnforcer # Floof - ID and contents adjusted
+  id: CrateArmoryShotgun # Floof - contents adjusted
   parent: CrateWeaponSecure
   name: Enforcer shotgun crate
   description: Contains a single Enforcer Combat Shotgun, and some standard shotgun shells. Requires Armory access to open.
