@@ -131,7 +131,7 @@
     prototypes:
     - CrateWeaponSecure
     - CrateArmoryLaser
-    - CrateArmoryPistolsMK58
+    - CrateArmoryPistols
     - CrateTrainingBombs
     - CrateTrackingImplants
     - CrateSecurityTrackingMindshieldImplants
