@@ -3,7 +3,7 @@
   icon:
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
     state: icon
-  product: CrateArmorySMGWT550
+  product: CrateArmorySMG
   cost: 4500 # Floof - changed to one per box
   category: cargoproduct-category-name-armory
   group: market
