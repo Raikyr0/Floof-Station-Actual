@@ -13,7 +13,7 @@
   icon:
     sprite: Nyanotrasen/Objects/Weapons/Guns/Pistols/universal.rsi
     state: icon
-  product: CrateArmoryPistolUniversal
+  product: CrateArmoryUniversal
   cost: 10000 # Floof - Adjusted to contain only 1 Gun
   category: Armory
   group: market
