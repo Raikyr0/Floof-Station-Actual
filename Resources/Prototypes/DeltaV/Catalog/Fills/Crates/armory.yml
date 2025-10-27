@@ -1,5 +1,5 @@
 - type: entity
-  id: CrateArmoryRifleGrand # Floof - ID and Contents Adjusted
+  id: CrateArmoryGrand # Floof - Contents Adjusted
   parent: CrateWeaponSecure
   components:
   - type: StorageFill
