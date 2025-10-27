@@ -64,7 +64,7 @@
 - type: entity
   id: CrateArmoryPistolsMK58
   parent: CrateWeaponSecure
-  name: MK58 pistol crate
+  name: MK58 pistols crate
   description: Contains two MK58 pistols with four mags. Requires Armory access to open.
   components:
   - type: StorageFill
