@@ -1,7 +1,7 @@
 ent-CrateArmoryRifleGrand = Mark 1 rifle crate
     .desc = Contains a single Mark 1 Rifle and two en-blocs clips. Requires Armory access to open.
 
-ent-CrateArmoryPistolUniversal = Universal pistol crate
+ent-CrateArmoryUniversal = Universal pistol crate
     .desc = Contains a single Mk32 Universal handgun with four mags. Requires Armory access to open.
 
 ent-CrateArmoryShotgunAdjutant = Adjutant shotgun crate
