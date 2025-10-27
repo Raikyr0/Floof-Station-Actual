@@ -1,4 +1,4 @@
-ent-CrateArmoryRifleGrand = Mark 1 rifle crate
+ent-CrateArmoryGrand = Mark 1 rifle crate
     .desc = Contains a single Mark 1 Rifle and two en-blocs clips. Requires Armory access to open.
 
 ent-CrateArmoryUniversal = Universal pistol crate
