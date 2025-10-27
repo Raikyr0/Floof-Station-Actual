@@ -62,7 +62,7 @@
         amount: 3
 
 - type: entity
-  id: CrateArmoryPistolsMK58 # Floof - ID and contents adjusted
+  id: CrateArmoryPistols # Floof - contents adjusted
   parent: CrateWeaponSecure
   name: MK58 pistols crate
   description: Contains two MK58 pistols with four mags. Requires Armory access to open.
