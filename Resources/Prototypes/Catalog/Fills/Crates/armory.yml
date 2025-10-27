@@ -51,7 +51,7 @@
       amount: 3
 
 - type: entity
-  id: CrateArmoryLaserRifle # Floof - ID and contents adjusted
+  id: CrateArmoryLaser # Floof - contents adjusted
   parent: CrateWeaponSecure
   name: laser rifle crate
   description: Contains three standard-issue laser rifles. Requires Armory access to open.
