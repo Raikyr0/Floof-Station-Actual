@@ -23,7 +23,7 @@
         amount: 2
 
 - type: entity
-  id: CrateArmoryShotgunAdjutant # Floof - ID and Contents Adjusted
+  id: CrateArmoryAdjutant # Floof - Contents Adjusted
   parent: CrateWeaponSecure
   components:
   - type: StorageFill
