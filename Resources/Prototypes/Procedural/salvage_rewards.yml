@@ -60,10 +60,10 @@
     CratePartsT4: 1.0
     PowerCellAntiqueProto: 0.25
     # basic weapons
-    CrateArmorySMG: 1.0
-    CrateArmoryLaser: 1.0
-    CrateArmoryShotgun: 1.0
-    CrateArmoryPistols: 1.0
+    CrateArmorySMGWT550: 1.0
+    CrateArmoryLaserRifle: 1.0
+    CrateArmoryShotgunEnforcer: 1.0
+    CrateArmoryPistolsMK58: 1.0
     # rare armor
     ClothingOuterArmorARC: 1.0 # DeltaV - ClothingOuterArmorRiot replaced in favour of ARC suit
     # rare chemicals
