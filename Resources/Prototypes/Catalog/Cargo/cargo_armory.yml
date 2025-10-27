@@ -13,7 +13,7 @@
   icon:
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
     state: icon
-  product: CrateArmoryShotgunEnforcer
+  product: CrateArmoryShotgun
   cost: 3500 # Floof - changed to 1 per box
   category: cargoproduct-category-name-armory
   group: market
