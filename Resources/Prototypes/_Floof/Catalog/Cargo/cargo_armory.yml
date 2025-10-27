@@ -4,7 +4,7 @@
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
     state: icon
   product: CrateArmorySMGC20r
-  cost: 10000
+  cost: 12000
   category: cargoproduct-category-name-armory
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
     state: icon
   product: CrateArmoryPistolPython
-  cost: 3000
+  cost: 4000
   category: cargoproduct-category-name-armory
   group: market
 
@@ -24,7 +24,7 @@
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
     state: icon
   product: CrateArmoryShotgunBulldog
-  cost: 12000
+  cost: 18000
   category: cargoproduct-category-name-armory
   group: market
 
@@ -44,6 +44,6 @@
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
     state: icon
   product: CrateArmoryRifleAKMS
-  cost: 9000
+  cost: 14000
   category: cargoproduct-category-name-armory
   group: market
