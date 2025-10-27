@@ -62,7 +62,7 @@
     # basic weapons
     CrateArmorySMGWT550: 1.0
     CrateArmoryLaser: 1.0
-    CrateArmoryShotgunEnforcer: 1.0
+    CrateArmoryShotgun: 1.0
     CrateArmoryPistolsMK58: 1.0
     # rare armor
     ClothingOuterArmorARC: 1.0 # DeltaV - ClothingOuterArmorRiot replaced in favour of ARC suit
