@@ -123,7 +123,7 @@
       state: icon
   - type: RandomSpawner
     rarePrototypes: #Very useful stuff we probably don't want random people getting on space ruins often, even if there are hurdles to open it
-    - CrateArmoryShotgunEnforcer
+    - CrateArmoryShotgun
     - CrateArmorySMGWT550
     - CrateSecurityRiot
     - CrateSecurityNonlethal
