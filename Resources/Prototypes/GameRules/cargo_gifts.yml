@@ -186,7 +186,7 @@
         SecurityArmor: 3
         ArmorySmgWT550: 1
         ArmoryShotgunEnforcer: 1
-        CrateArmoryLaserRifle: 1
+        ArmoryLaserRifle: 1
 
 - type: entity
   id: GiftsSecurityRiot
