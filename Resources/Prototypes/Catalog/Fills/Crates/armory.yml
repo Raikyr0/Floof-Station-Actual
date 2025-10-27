@@ -1,5 +1,5 @@
 - type: entity
-  id: CrateArmorySMGWT550 # Floof - ID and contents adjusted
+  id: CrateArmorySMG # Floof -contents adjusted
   parent: CrateWeaponSecure
   name: WT550 SMG crate
   description: Contains a single WT550 Submachine Gun with two mags. Requires Armory access to open.
