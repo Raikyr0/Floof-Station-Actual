@@ -1,25 +1,25 @@
 - type: entity
-  id: CrateArmorySMGWT550 # Floof
+  id: CrateArmorySMGWT550 # Floof - ID and contents adjusted
   parent: CrateWeaponSecure
   name: WT550 SMG crate
   description: Contains a single WT550 Submachine Gun with two mags. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
-      - id: WeaponSubMachineGunWt550 # Floof
+      - id: WeaponSubMachineGunWt550
         amount: 1
       - id: MagazinePistolSubMachineGunTopMounted
         amount: 2
 
 - type: entity
-  id: CrateArmoryShotgunEnforcer # Floof
+  id: CrateArmoryShotgunEnforcer # Floof - ID and contents adjusted
   parent: CrateWeaponSecure
   name: Enforcer shotgun crate
   description: Contains a single Enforcer Combat Shotgun, and some standard shotgun shells. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
-      - id: WeaponShotgunEnforcer # Floof
+      - id: WeaponShotgunEnforcer
         amount: 1
       - id: BoxLethalshot
         amount: 1
@@ -51,7 +51,7 @@
       amount: 3
 
 - type: entity
-  id: CrateArmoryLaserRifle # Floof
+  id: CrateArmoryLaserRifle # Floof - ID and contents adjusted
   parent: CrateWeaponSecure
   name: laser rifle crate
   description: Contains three standard-issue laser rifles. Requires Armory access to open.
@@ -62,7 +62,7 @@
         amount: 3
 
 - type: entity
-  id: CrateArmoryPistolsMK58 # Floof
+  id: CrateArmoryPistolsMK58 # Floof - ID and contents adjusted
   parent: CrateWeaponSecure
   name: MK58 pistols crate
   description: Contains two MK58 pistols with four mags. Requires Armory access to open.
@@ -72,4 +72,6 @@
     - id: WeaponPistolMk58
       amount: 2
     - id: MagazinePistol
-      amount: 4
+      amount: 2
+    - id: MagazinePistolRubber
+      amount: 2
