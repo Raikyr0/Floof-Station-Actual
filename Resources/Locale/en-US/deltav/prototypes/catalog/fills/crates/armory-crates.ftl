@@ -4,7 +4,7 @@ ent-CrateArmoryRifleGrand = Mark 1 rifle crate
 ent-CrateArmoryUniversal = Universal pistol crate
     .desc = Contains a single Mk32 Universal handgun with four mags. Requires Armory access to open.
 
-ent-CrateArmoryShotgunAdjutant = Adjutant shotgun crate
+ent-CrateArmoryAdjutant = Adjutant shotgun crate
     .desc = Contains a single Adjutant shotgun with 3 ammo boxes. Requires Armory access to open.
 
 ent-CrateArmoryEnergyGun = Energy Gun Crate
