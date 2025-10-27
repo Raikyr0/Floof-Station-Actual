@@ -83,7 +83,7 @@
   - type: LatheHeatProducing
   - type: ReagentSpeed
     modifiers:
-      NaturalLubricant: 0.9 # Floof
+      NaturalLubricant: 0.95 # Floof
       SpaceLube: 0.8 # being faster means less heat so lube needs to be nerfed
       SpaceGlue: 5 # no change from normal lathe, overheat!!!
 
