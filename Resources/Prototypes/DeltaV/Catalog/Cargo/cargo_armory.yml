@@ -1,15 +1,15 @@
 - type: cargoProduct
-  id: ArmoryRifleGrand # Floof - ID and Contents Adjusted
+  id: ArmoryGrand # Floof - Contents Adjusted
   icon:
     sprite: Nyanotrasen/Objects/Weapons/Guns/Snipers/grand_rifle.rsi
     state: base
-  product: CrateArmoryRifleGrand
+  product: CrateArmoryGrand
   cost: 2750 # Floof - Adjusted to contain only 1 Gun
   category: Armory
   group: market
 
 - type: cargoProduct
-  id: ArmoryPistolUniversal # Floof - ID and Contents Adjusted
+  id: ArmoryUniversal # Floof - Contents Adjusted
   icon:
     sprite: Nyanotrasen/Objects/Weapons/Guns/Pistols/universal.rsi
     state: icon
@@ -19,7 +19,7 @@
   group: market
 
 - type: cargoProduct
-  id: ArmoryShotgunAdjutant # Floof - ID and Contents Adjusted
+  id: ArmoryShotgunAdjutant # Floof - Contents Adjusted
   icon:
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
     state: icon
