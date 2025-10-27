@@ -130,7 +130,7 @@
     rareChance: 0.1
     prototypes:
     - CrateWeaponSecure
-    - CrateArmoryLaserRifle
+    - CrateArmoryLaser
     - CrateArmoryPistolsMK58
     - CrateTrainingBombs
     - CrateTrackingImplants
