@@ -184,9 +184,9 @@
       dest: cargo-gift-dest-sec
       gifts:
         SecurityArmor: 3
-        ArmorySmgWT550: 1
-        ArmoryShotgunEnforcer: 1
-        ArmoryLaserRifle: 1
+        ArmorySmg: 1
+        ArmoryShotgun: 1
+        ArmoryLaser: 1
 
 - type: entity
   id: GiftsSecurityRiot
