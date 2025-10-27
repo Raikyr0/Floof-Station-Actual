@@ -55,6 +55,6 @@
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
     state: icon
   product: CrateArmoryPistolsMK58
-  cost: 3000 # Floof - $1500 each
+  cost: 5000 # Floof - $2500 each
   category: cargoproduct-category-name-armory
   group: market
