@@ -29,8 +29,8 @@
     ClothingHandsMedicWarmers: 1 # Floofstation
     ClothingUnderSocksMedic: 1 # Floofstation
     ClothingUniformMedicThong: 1 # Floofstation
+    ClothingShoesBootsWinterMed: 2
   contrabandInventory: #DeltaV
     UniformScrubsColorCybersun: 1 #DeltaV
     ClothingHeadHatSurgcapCybersun: 1 #DeltaV
     ClothingOuterCoatCybersunWindbreaker: 1 #DeltaV
-    ClothingShoesBootsWinterMed: 2
