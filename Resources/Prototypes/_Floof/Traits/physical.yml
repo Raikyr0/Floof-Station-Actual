@@ -288,7 +288,7 @@
   - !type:TraitModifySilicon
     batteryDrainModifier: -0.25 # Floof - M3739 - #1209 - Roughly 32 minutes on a medium capacity power cell.
     
-- type: trait # This just adds the Oni shooting malcus to anyone 
+- type: trait # This just adds the Oni shooting malcus to anyone  
   id: OniShooting
   category: Physical
   points: 6
