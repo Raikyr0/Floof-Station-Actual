@@ -1,4 +1,3 @@
-namespace Content.Server.Psionics.Glimmer
 namespace Content.Server.Psionics.Glimmer.Structures
 {
     [RegisterComponent]
