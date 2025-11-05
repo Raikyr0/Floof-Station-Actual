@@ -62,8 +62,8 @@
       reoccurrenceDelay: 15
     - type: GlimmerEvent
       maximumGlimmer: 300
-      glimmerBurnLower: 10
-      glimmerBurnUpper: 30
+      glimmerBurnLower: 10 # Floof
+      glimmerBurnUpper: 50
     - type: MundaneDischargeRule
 
 - type: entity
@@ -96,8 +96,8 @@
     - type: GlimmerEvent
       minimumGlimmer: 400
       maximumGlimmer: 1000
-      glimmerBurnLower: 10
-      glimmerBurnUpper: 30
+      glimmerBurnLower: 10 # Floof
+      glimmerBurnUpper: 50
     - type: PsionicCatGotYourTongueRule
 
 # - type: entity # Floofstation - Disabled because this is perm and this is bullshit!
