@@ -37,6 +37,7 @@
     - !type:AddPsionicPowerComponents
       components:
       - type: GlimmerSource
+        SecondsPerGlimmer: 15 # Default is 10 which generates about 6 glimmer a minute, this will do 4
     - !type:AddPsionicAssayFeedback
       assayFeedback: glimmer-leak-power-feedback
   removalFunctions:
