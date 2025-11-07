@@ -307,6 +307,8 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
+    - !type:CharacterLogicOrRequirement
+      requirements:
       - !type:CharacterJobRequirement
         jobs:
           - SalvageSpecialist
@@ -325,6 +327,8 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutBackpacks
+    - !type:CharacterLogicOrRequirement
+      requirements:
       - !type:CharacterJobRequirement
         jobs:
           - SalvageSpecialist
