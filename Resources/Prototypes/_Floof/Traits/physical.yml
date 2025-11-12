@@ -336,5 +336,5 @@
     - !type:TraitAddComponent
       components:
       - type: PlayerAccuracyModifier
-        spreadMultiplier: 7.5
+        spreadMultiplier: 2.5
         maxSpreadAngle: 90
