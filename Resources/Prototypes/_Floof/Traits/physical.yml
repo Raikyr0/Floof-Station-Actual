@@ -310,8 +310,8 @@
     - !type:TraitAddComponent
       components:
       - type: PlayerAccuracyModifier
-        spreadMultiplier: 15
-        maxSpreadAngle: 180
+        spreadMultiplier: 7.5
+        maxSpreadAngle: 90
 
 - type: trait
   id: BadShooting
