@@ -260,7 +260,7 @@
   - type: VisionCorrection    
   - type: ChameleonClothing # Floof
     slot: [eyes]
-    default: ClothingEyesGlassesSunglasses
+    default: ClothingEyesVisorNinja
   - type: UserInterface
     interfaces:
       enum.ChameleonUiKey.Key:
