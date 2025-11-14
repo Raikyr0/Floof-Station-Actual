@@ -166,6 +166,13 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: ChameleonClothing
+    slot: [HEAD]
+    default: ClothingHeadHelmetSpaceNinja
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface  
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
