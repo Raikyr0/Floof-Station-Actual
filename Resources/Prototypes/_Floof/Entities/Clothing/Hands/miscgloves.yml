@@ -353,7 +353,7 @@
   parent: ClothingHandsGlovesNorthStar
   id: ClothingHandsGlovesJoStar
   name: gloves of the jo star
-  description: These gloves allow you to punch incredibly fast.
+  description: These gloves allow you to punch incredibly fast. Diamond is unbreakable!
   components:
   - type: MeleeWeapon
     autoAttack: true
