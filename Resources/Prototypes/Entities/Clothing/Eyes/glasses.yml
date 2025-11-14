@@ -265,6 +265,9 @@
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+  - type: Tag
+    tags:
+    - WhitelistChameleon
   
 - type: entity #Fake goggles, the latest in anti-valid hunting technology
   parent: ClothingEyesBase
