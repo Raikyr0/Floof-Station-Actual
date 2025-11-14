@@ -709,6 +709,16 @@
     sprite: Clothing/Mask/ninja.rsi
   - type: Item
     storedRotation: -90
+  - type: VoiceMask
+  - type: ChameleonClothing
+    slot: [mask]
+    default: ClothingMaskNinja
+  - type: UserInterface
+    interfaces:
+      enum.VoiceMaskUIKey.Key:
+        type: VoiceMaskBoundUserInterface
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
   - type: EyeProtection
   - type: BreathMask
   - type: IdentityBlocker
