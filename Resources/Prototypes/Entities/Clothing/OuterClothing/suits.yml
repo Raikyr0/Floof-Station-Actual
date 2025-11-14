@@ -217,6 +217,9 @@
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+  - type: Tag
+    tags:
+      - WhitelistChameleon
 
 - type: entity
   parent: ClothingOuterBase
