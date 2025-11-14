@@ -166,6 +166,12 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
   - type: ChameleonClothing # Floof
     slot: [HEAD]
     default: ClothingHeadHelmetSpaceNinja
@@ -173,12 +179,6 @@
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface  
-  - type: IngestionBlocker
-  - type: IdentityBlocker
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
 
 #Templar Helmet
 - type: entity
