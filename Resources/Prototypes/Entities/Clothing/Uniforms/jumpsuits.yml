@@ -1093,6 +1093,10 @@
   name: ninja jumpsuit
   description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
   components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
   - type: ChameleonClothing # Floof
     slot: [innerclothing]
     default: ClothingUniformJumpsuitNinja
@@ -1100,10 +1104,9 @@
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
