@@ -210,6 +210,13 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellSmall
         disableEject: true
+  - type: ChameleonClothing # Floof
+    slot: [outerClothing]
+    default: ClothingOuterSuitSpaceNinja
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
 
 - type: entity
   parent: ClothingOuterBase
