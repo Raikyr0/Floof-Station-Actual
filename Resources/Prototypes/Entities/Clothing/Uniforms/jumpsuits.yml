@@ -1093,7 +1093,7 @@
   name: ninja jumpsuit
   description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
   components:
-  - type: ChameleonClothing
+  - type: ChameleonClothing # Floof
     slot: [innerclothing]
     default: ClothingUniformJumpsuitNinja
   - type: Sprite
