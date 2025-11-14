@@ -166,7 +166,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-  - type: ChameleonClothing
+  - type: ChameleonClothing # Floof
     slot: [HEAD]
     default: ClothingHeadHelmetSpaceNinja
   - type: UserInterface
