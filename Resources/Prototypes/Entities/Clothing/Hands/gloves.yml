@@ -235,6 +235,13 @@
     stripTimeReduction: 1
   - type: ToggleClothing
     action: ActionToggleNinjaGloves
+  - type: ChameleonClothing
+    slot: [gloves]
+    default: ClothingHandsGlovesSpaceNinja
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
   - type: NinjaGloves
     abilities:
     - components:
