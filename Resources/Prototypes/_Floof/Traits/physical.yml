@@ -361,10 +361,10 @@
     - !type:TraitCyberneticLimbReplacement
       removeBodyPart: Arm
       partSymmetry: Left
-      protoId: LeftArmHarpy
+      protoId: LeftArmHarpyTrait
       slotId: "left arm"
     - !type:TraitCyberneticLimbReplacement
       removeBodyPart: Arm
       partSymmetry: Right
-      protoId: RightArmHarpy
+      protoId: RightArmHarpyTrait
       slotId: "right arm"
