@@ -1009,6 +1009,28 @@
     blacklist:
       components:
       - SurplusBundle
+
+- type: listing
+  id: UplinkSurplusBundle
+  name: uplink-surplus-bundle-name
+  description: uplink-surplus-bundle-desc
+  productEntity: CrateSyndicateSurplusBundle
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 10
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkDisruption
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle      
 # Allies
 
 - type: listing
