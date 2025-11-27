@@ -253,7 +253,6 @@
         Slash: 0.7
         Piercing: 0.7
         Heat: 0.7
-        Caustic: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
