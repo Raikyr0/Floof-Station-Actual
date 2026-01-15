@@ -230,7 +230,8 @@
     descriptionExtensions:
       - description: examine-tiny-trait-message
   - !type:TraitAddTag
-    tags: TraitTiny
+    tags:
+      - TraitTiny
 
 - type: trait
   id: Heavyweight
