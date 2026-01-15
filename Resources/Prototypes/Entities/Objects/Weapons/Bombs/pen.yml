@@ -1,7 +1,60 @@
+# Pen Clicking was stopping it from activating like a grenade
+
+- type: entity
+  name: pen
+  parent: BaseItem
+  id: PenNoClick
+  description: 'A dark ink pen.'
+  suffix: NoClick
+  components:
+  - type: Tag
+    tags:
+    - Write
+    - Pen
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen
+    size: Tiny
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 25
+  # Shitmed Change
+  - type: Tending
+    speed: 0.55
+  - type: SurgeryTool
+    startSound:
+      path: /Audio/_Shitmed/Medical/Surgery/retractor1.ogg
+    endSound:
+      path: /Audio/_Shitmed/Medical/Surgery/hemostat1.ogg
+  - type: EmbeddableProjectile
+    offset: 0.3,0.0
+    removalTime: 0.0
+  - type: ThrowingAngle
+    angle: 315
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Piercing: 3
+
+- type: entity
+  parent: PenNoClick
+  id: PenEmbeddableNoClick
+  abstract: true
+  suffix: NoClick
+  components:
+  - type: LandAtCursor
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Piercing: 5
+
 - type: entity
   name: pen
   suffix: Exploding
-  parent: PenEmbeddable
+  parent: PenEmbeddableNoClick
   description: A dark ink pen.
   id: PenExploding
   components:
