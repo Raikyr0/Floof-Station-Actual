@@ -221,9 +221,6 @@
       deadThresholdModifier: -20 # reduce health to dead by 20 to align with the crit modifier. This effectively means they have the same health after being crit as someone without the trait.
     - type: StaminaCritModifier
       critThresholdModifier: -20 # reduce stamina by 20 (20% for standard races)
-    - type: Tag
-      tags:
-      - TraitTiny
   - !type:TraitSetScale
     scale: 0.7
   - !type:TraitAddArmor
@@ -232,6 +229,8 @@
   - !type:TraitPushDescription
     descriptionExtensions:
       - description: examine-tiny-trait-message
+  - !type:TraitAddTag
+    tags: TraitTiny
 
 - type: trait
   id: Heavyweight
