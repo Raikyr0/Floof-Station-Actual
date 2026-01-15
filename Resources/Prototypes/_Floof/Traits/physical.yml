@@ -338,3 +338,65 @@
       - type: PlayerAccuracyModifier
         spreadMultiplier: 2.5
         maxSpreadAngle: 90
+
+- type: trait
+  id: DrinkHolder
+  category: Physical
+  points: 0 # Placeholder for Testing
+  slots: 0 # Placeholder for Testing
+  requirements:
+    - !type:CharacterSpeciesRequirement
+    species:
+    - IPC
+  functions:
+    - !type:TraitAddComponent
+      components:
+      - type: ReagentDispenser
+        storageWhitelist:
+          tags:
+          - DrinkBottle
+          - ChemDispensable
+
+- type: trait
+  id: Chemmaster
+  category: Physical
+  points: 0 # Placeholder for Testing
+  slots: 0 # Placeholder for Testing
+  requirements:
+    - !type:CharacterSpeciesRequirement
+    species:
+    - IPC
+  functions:
+    - !type:TraitAddComponent
+      components:
+      - type: ChemMaster
+        pillDosageLimit: 20
+      - type: UserInterface
+        interfaces:
+          enum.ChemMasterUiKey.Key:
+            type: ChemMasterBoundUserInterface
+      - type: ContainerContainer
+        containers:
+          beakerSlot: !type:ContainerSlot
+          outputSlot: !type:ContainerSlot
+          machine_board: !type:Container
+          machine_parts: !type:Container
+      - type: ItemSlots
+        slots:
+          beakerSlot:
+            whitelist:
+              components:
+              -  FitsInDispenser
+          outputSlot:
+            whitelistFailPopup: chem-master-component-cannot-put-entity-message
+            whitelist:
+              tags:
+              - Bottle
+              - PillCanister
+      - type: SolutionContainerManager
+        solutions:
+          buffer: {}
+          pillBuffer: {}
+      - type: DumpableSolution
+        solution: buffer
+        unlimited: true
