@@ -391,6 +391,8 @@
         interfaces:
           enum.ChemMasterUiKey.Key:
             type: ChemMasterBoundUserInterface
+      - type: ActivatableUI
+        key: enum.ChemMasterUiKey.Key
       - type: ContainerContainer
         containers:
           beakerSlot: !type:ContainerSlot
