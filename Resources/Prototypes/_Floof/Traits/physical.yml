@@ -351,6 +351,12 @@
   functions:
     - !type:TraitAddComponent
       components:
+      - type: ActivatableUI
+        key: enum.ReagentDispenserUiKey.Key
+      - type: UserInterface
+        interfaces:
+          enum.ReagentDispenserUiKey.Key:
+            type: ReagentDispenserBoundUserInterface
       - type: ReagentDispenser
         storageWhitelist:
           tags:
@@ -362,12 +368,6 @@
           whitelist:
             components:
             - FitsInDispenser
-      - type: UserInterface
-        interfaces:
-          enum.ReagentDispenserUiKey.Key:
-            type: ReagentDispenserBoundUserInterface
-      - type: ActivatableUI
-        key: enum.ReagentDispenserUiKey.Key
       - type: ItemSlots
       - type: ContainerContainer
         containers:
@@ -385,14 +385,14 @@
   functions:
     - !type:TraitAddComponent
       components:
-      - type: ChemMaster
-        pillDosageLimit: 20
+      - type: ActivatableUI
+        key: enum.ChemMasterUiKey.Key
       - type: UserInterface
         interfaces:
           enum.ChemMasterUiKey.Key:
             type: ChemMasterBoundUserInterface
-      - type: ActivatableUI
-        key: enum.ChemMasterUiKey.Key
+      - type: ChemMaster
+        pillDosageLimit: 20
       - type: ContainerContainer
         containers:
           beakerSlot: !type:ContainerSlot
