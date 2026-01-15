@@ -346,8 +346,8 @@
   slots: 0 # Placeholder for Testing
   requirements:
     - !type:CharacterSpeciesRequirement
-    species:
-    - IPC
+      species:
+      - IPC
   functions:
     - !type:TraitAddComponent
       components:
@@ -364,8 +364,8 @@
   slots: 0 # Placeholder for Testing
   requirements:
     - !type:CharacterSpeciesRequirement
-    species:
-    - IPC
+      species:
+      - IPC
   functions:
     - !type:TraitAddComponent
       components:
