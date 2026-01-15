@@ -45,8 +45,8 @@
             Quantity: 100
     - type: Udder
       reagentId: Milk
-      quantityPerUpdate: 25
-      growthDelay: 30
+      quantityPerUpdate: 100
+      growthDelay: 10
 
 - type: trait
   id: SquirtProducer
