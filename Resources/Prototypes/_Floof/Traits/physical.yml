@@ -367,7 +367,7 @@
           enum.ReagentDispenserUiKey.Key:
             type: ReagentDispenserBoundUserInterface
       - type: ActivatableUI
-          key: enum.ReagentDispenserUiKey.Key
+        key: enum.ReagentDispenserUiKey.Key
       - type: ItemSlots
       - type: ContainerContainer
         containers:
