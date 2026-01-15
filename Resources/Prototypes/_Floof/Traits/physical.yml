@@ -232,7 +232,6 @@
   - !type:TraitPushDescription
     descriptionExtensions:
       - description: examine-tiny-trait-message
-  
 
 - type: trait
   id: Heavyweight
