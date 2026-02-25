@@ -574,9 +574,9 @@
       traits:
         - BloodDeficiency
   functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
-    - !type:TraitReplaceComponent
+    - !type:TraitAddComponent
       components:
-        - type: PassiveDamage
+        - type: PassiveHealing
           allowedStates:
           - Alive
           - Critical
@@ -590,6 +590,22 @@
               Genetic: -0.2
         - type: BloodDeficiency # Incredibly actually works
           bloodLossPercentage: -0.025
+
+- type: trait
+  id: Cancer
+  category: Physical
+  points: 0
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: ChronicDamage
+          allowedStates:
+          - Alive
+          - Critical
+          damageCap: 300
+          damage:
+            groups:
+              Genetic: 0.01
 
 - type: trait
   id: DermalArmor
