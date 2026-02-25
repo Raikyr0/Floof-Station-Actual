@@ -15,7 +15,9 @@ public sealed class PassiveDamageSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<PassiveDamageComponent, PassiveHealingComponent, ChronicDamageComponent, MapInitEvent>(OnPendingMapInit);
+        SubscribeLocalEvent<PassiveDamageComponent, MapInitEvent>(OnPendingMapInit);
+        SubscribeLocalEvent<PassiveHealingComponent, MapInitEvent>(OnPendingMapInit);
+        SubscribeLocalEvent<ChronicDamageComponent, MapInitEvent>(OnPendingMapInit);
     }
 
     private void OnPendingMapInit(EntityUid uid, PassiveDamageComponent component, MapInitEvent args)
