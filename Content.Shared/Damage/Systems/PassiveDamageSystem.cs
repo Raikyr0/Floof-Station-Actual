@@ -15,10 +15,10 @@ public sealed class PassiveDamageSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<PassiveDamageComponent, MapInitEvent>(OnPendingMapInit);
+        SubscribeLocalEvent<PassiveDamageComponent, PassiveHealingComponent, ChronicDamageComponent, MapInitEvent>(OnPendingMapInit);
     }
 
-    private void OnPendingMapInit(EntityUid uid, PassiveDamageComponent component, MapInitEvent args)
+    private void OnPendingMapInit(EntityUid uid, PassiveDamageComponent component,PassiveHealingComponent component, ChronicDamageComponent component, MapInitEvent args)
     {
         component.NextDamage = _timing.CurTime + TimeSpan.FromSeconds(1f);
     }
@@ -30,7 +30,7 @@ public sealed class PassiveDamageSystem : EntitySystem
         var curTime = _timing.CurTime;
 
         // Go through every entity with the component
-        var query = EntityQueryEnumerator<PassiveDamageComponent, DamageableComponent, MobStateComponent>();
+        var query = EntityQueryEnumerator<PassiveDamageComponent,PassiveHealingComponent, ChronicDamageComponent, DamageableComponent, MobStateComponent>();
         while (query.MoveNext(out var uid, out var comp, out var damage, out var mobState))
         {
             // Make sure they're up for a damage tick
