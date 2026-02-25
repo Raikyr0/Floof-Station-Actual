@@ -18,7 +18,7 @@ public sealed class PassiveDamageSystem : EntitySystem
         SubscribeLocalEvent<PassiveDamageComponent, PassiveHealingComponent, ChronicDamageComponent, MapInitEvent>(OnPendingMapInit);
     }
 
-    private void OnPendingMapInit(EntityUid uid, PassiveDamageComponent component,PassiveHealingComponent component, ChronicDamageComponent component, MapInitEvent args)
+    private void OnPendingMapInit(EntityUid uid, PassiveDamageComponent ,PassiveHealingComponent, ChronicDamageComponent component, MapInitEvent args)
     {
         component.NextDamage = _timing.CurTime + TimeSpan.FromSeconds(1f);
     }
