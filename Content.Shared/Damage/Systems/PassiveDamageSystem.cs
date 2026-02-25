@@ -30,7 +30,7 @@ public sealed class PassiveDamageSystem : EntitySystem
         var curTime = _timing.CurTime;
 
         // Go through every entity with the component
-        var query = EntityQueryEnumerator<PassiveDamageComponent,PassiveHealingComponent, ChronicDamageComponent, DamageableComponent, MobStateComponent>();
+        var query = EntityQueryEnumerator<PassiveDamageComponent, PassiveHealingComponent, ChronicDamageComponent, DamageableComponent, MobStateComponent>();
         while (query.MoveNext(out var uid, out var comp, out var damage, out var mobState))
         {
             // Make sure they're up for a damage tick
