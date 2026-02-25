@@ -544,6 +544,6 @@ trait-description-BionicPryArm =
     This trait gives you cybernetic DX-1 Pryarms, which let you pry open unpowered doors easily.
     (They essentially function like a crowbar)
 
-trait-name-cancer = Cancer
-trait-description-cancer =
+trait-name-Cancer = Cancer
+trait-description-Cancer =
     Your body has cancer. Placeholder
