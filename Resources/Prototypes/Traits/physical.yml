@@ -594,8 +594,6 @@
 - type: trait
   id: Cancer
   category: Physical
-  name: trait-name-Cancer
-  description: trait-description-Cancer
   points: 0
   functions:
     - !type:TraitAddComponent
