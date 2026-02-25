@@ -543,3 +543,7 @@ trait-description-BionicPryArm =
     Your arms have been reinforced with steel and hydraulics. You can force your way out of some unpleasant situations.
     This trait gives you cybernetic DX-1 Pryarms, which let you pry open unpowered doors easily.
     (They essentially function like a crowbar)
+
+trait-name-cancer = Cancer
+trait-description-cancer =
+    Your body has cancer. Placeholder
