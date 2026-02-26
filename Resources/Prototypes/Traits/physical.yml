@@ -584,7 +584,7 @@
           damage:
             groups:
               Brute: -0.30
-              Burn: -0.30
+              Burn: -10
               Airloss: -0.25
               Toxin: -0.30
               Genetic: -0.2
